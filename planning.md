@@ -60,7 +60,7 @@ Over half of the sources are comments that fall within the 250 - 300 character r
      support, accuracy on domain-specific text, latency? -->
 
 **Embedding model:**
-bge-small-en-v1.5
+all-MiniLM-L6-v2
 
 **Top-k:**
 10
