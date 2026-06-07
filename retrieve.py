@@ -4,7 +4,7 @@ retrieve.py
 Stage 4 of the document pipeline: query the ChromaDB collection for the top-k
 chunks most relevant to a natural-language question.
 
-Per planning.md: top-k = 10, embedding model = all-MiniLM-L6-v2.
+Per planning.md: top-k = 10, embedding model = BAAI/bge-small-en-v1.5.
 
 Usage:
     python retrieve.py "Is CJ Herman's class difficult?"
@@ -20,7 +20,7 @@ from chromadb.utils import embedding_functions
 PROJECT_ROOT = Path(__file__).resolve().parent
 CHROMA_DIR = PROJECT_ROOT / "chroma_db"
 COLLECTION_NAME = "cu_boulder_cs"
-EMBED_MODEL = "all-MiniLM-L6-v2"
+EMBED_MODEL = "BAAI/bge-small-en-v1.5"
 TOP_K = 10
 
 

@@ -110,8 +110,29 @@ Thanks so much!
      latency, and local vs. API-hosted. -->
 
 **Model used:**
+`BAAI/bge-small-en-v1.5` via sentence-transformers, running locally. 384-dimensional embeddings stored in a local ChromaDB collection with cosine distance.
+
+**Why this model (and why I swapped):**
+My initial pick was `all-MiniLM-L6-v2` because it's the default sentence-transformers model and is fast on CPU. During testing it failed on course-specific questions because it didn't reliably distinguish course numbers (`CSCI 1300` and `CSCI 3104` embedded as very similar). For the eval question *"Who should I take CSCI 3104 with?"*, the top 40 retrieved chunks were 39× CSCI 1300/2270 grade rows and only 1× actually-CSCI-3104 content — even though my corpus has 19 Coursicle reviews and dedicated RMP pages for CSCI 3104 professors. The LLM correctly responded *"I don't have enough information on that"* because the retriever wasn't surfacing the right material.
+
+I swapped in `BAAI/bge-small-en-v1.5`, which is trained with a retrieval-specific contrastive objective on MS MARCO-style query/passage pairs. On the same query and the same chunks, the top 10 became:
+
+| rank | source | distance |
+|------|--------|----------|
+| 1 | Coursicle — Grochow review (CSCI 3104) | 0.237 |
+| 2 | BuffClassesEDA — CSCI 3104 grade history | 0.246 |
+| 3 | RMP — Joshua Grochow (CSCI 3104) | 0.249 |
+| 4–6 | BuffClassesEDA — CSCI 3104 grade history | 0.251–0.256 |
+| 7 | Coursicle — Grochow review (CSCI 3104) | 0.268 |
+| 8–9 | Coursicle — Vernerey reviews (CSCI 3104) | 0.273–0.275 |
+| 10 | BuffClassesEDA — CSCI 3104 grade history | 0.275 |
+
+All 10 hits are about CSCI 3104, mixing professor reviews and the right grade data. The LLM now answers the question with a concrete recommendation (Grochow + Vernerey) backed by Coursicle + RMP sources.
+
+The other fix I made alongside the model swap was restructuring `documents/buffclasses_grades.txt` so each chunk carries one course header (`CSCI 3104 - Algorithms grade history:`) at the top of a 4-row block instead of repeating the course prefix on every row. Without that, BuffClasses chunks were lexically dense in "CSCI" tokens and dominated retrieval. The model swap is what made retrieval semantically correct; the chunk restructure is what kept any one course from drowning out the others.
 
 **Production tradeoff reflection:**
+This system is sized for the CU Boulder CS student body (~38k enrolled across the university, far fewer CS students), so latency and faithfulness to original student reviews matter more than per-query cost. `bge-small-en-v1.5` is the right default at this scale: small enough to embed the corpus once on a laptop, accurate enough on noisy review text. If this scaled to all U.S. universities (~18M+ students), I'd weigh three trade-offs differently: (1) a larger model like `bge-large-en-v1.5` or `e5-large-v2` for accuracy on long Reddit threads where the relevant point is buried mid-post; (2) a hosted embedding API (Voyage, Cohere, OpenAI `text-embedding-3-large`) to avoid maintaining GPU inference for embedding refreshes, accepting per-query cost in exchange; (3) a re-ranker (cross-encoder) on the top 20–50 hits to fix borderline cases like the one above without retraining the whole index. Multilingual support isn't a priority for a U.S.-only student-review corpus, but context length would matter more — `bge-small` caps at 512 tokens, which clips long Reddit posts.
 
 ---
 

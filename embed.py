@@ -23,7 +23,7 @@ from chunking import chunk_documents
 PROJECT_ROOT = Path(__file__).resolve().parent
 CHROMA_DIR = PROJECT_ROOT / "chroma_db"
 COLLECTION_NAME = "cu_boulder_cs"
-EMBED_MODEL = "all-MiniLM-L6-v2"
+EMBED_MODEL = "BAAI/bge-small-en-v1.5"
 BATCH = 256
 
 
@@ -44,7 +44,7 @@ def build_collection(reset: bool = True):
             pass
 
     # cosine distance is the standard choice for normalized sentence-transformer
-    # embeddings; all-MiniLM-L6-v2 outputs are L2-normalized by default.
+    # embeddings; BAAI/bge-small-en-v1.5 outputs are L2-normalized by default.
     collection = client.get_or_create_collection(
         name=COLLECTION_NAME,
         embedding_function=embed_fn,

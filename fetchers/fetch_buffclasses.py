@@ -20,6 +20,12 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CACHE_PATH = PROJECT_ROOT / "documents" / "_cache" / "grades.sqlite"
 OUT_PATH = PROJECT_ROOT / "documents" / "buffclasses_grades.txt"
 
+# Rows per "block". Each block carries one course-header line and is separated
+# from the next block by a blank line so the chunker (512 char window, prefers
+# \n\n boundaries) keeps the block intact. With ~92-char rows + ~40-char
+# header, 4 rows per block sits well under 512 with headroom for long names.
+ROWS_PER_BLOCK = 4
+
 # (Subject, Course) pairs to include. Add more if your eval needs them.
 COURSES = [
     ("CSCI", 3104),  # Algorithms — Q4 target
@@ -68,16 +74,26 @@ def main():
         if not rows:
             continue
         title = (rows[0][1] or "").strip()
-        course_prefix = f"{subject} {course} - {title}" if title else f"{subject} {course}"
-        lines = []
+        header = (
+            f"{subject} {course} - {title} grade history:"
+            if title else f"{subject} {course} grade history:"
+        )
+
+        # Format each row WITHOUT repeating the course prefix.
+        formatted = []
         for yt, _title, instr, avg, n_eot, pa, pb, pc, pdfw in rows:
             instr = (instr or "Unknown").strip()
             avg_s = f"{avg:.2f}" if avg is not None else "n/a"
-            lines.append(
-                f"{course_prefix} {_decode_yearterm(yt)} | {instr} | avg GPA {avg_s} | "
+            formatted.append(
+                f"{_decode_yearterm(yt)} | {instr} | avg GPA {avg_s} | "
                 f"N={n_eot} | A={pa} B={pb} C={pc} DFW={pdfw}"
             )
-        blocks.append("\n".join(lines))
+
+        # Group into ROWS_PER_BLOCK-sized blocks; each block gets the header so
+        # any chunk landing on this block is self-describing.
+        for i in range(0, len(formatted), ROWS_PER_BLOCK):
+            block = [header] + formatted[i:i + ROWS_PER_BLOCK]
+            blocks.append("\n".join(block))
 
     body = "\n\n".join(blocks)
 

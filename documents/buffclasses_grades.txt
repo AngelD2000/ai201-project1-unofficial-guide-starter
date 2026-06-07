@@ -1,159 +1,235 @@
 SOURCE: BuffClassesEDA — CU Boulder grade distributions (Spring 2016–Spring 2024)
 
-CSCI 3104 - Algorithms Spring 2024 | COX,RACHEL SUZANNE-TUTMAHER | avg GPA 3.80 | N=143 | A=92% B=3% C=1% DFW=4%
-CSCI 3104 - Algorithms Spring 2024 | VERNEREY, DIVYA E. | avg GPA 3.85 | N=143 | A=93% B=3% C=1% DFW=3%
-CSCI 3104 - Algorithms Fall 2023 | NAGESH,CHANDRA KANTH | avg GPA 3.42 | N=240 | A=74% B=13% C=4% DFW=11%
-CSCI 3104 - Algorithms Spring 2023 | LAYER,RYAN MATTHEW | avg GPA 3.25 | N=118 | A=66% B=18% C=3% DFW=13%
-CSCI 3104 - Algorithms Spring 2023 | NAGESH,CHANDRA KANTH | avg GPA 3.30 | N=132 | A=65% B=18% C=8% DFW=8%
-CSCI 3104 - Algorithms Fall 2022 | GROCHOW,JOSHUA ABRAHAM | avg GPA 3.31 | N=97 | A=64% B=20% C=9% DFW=11%
-CSCI 3104 - Algorithms Fall 2022 | NAGESH,CHANDRA KANTH | avg GPA 3.04 | N=145 | A=53% B=24% C=10% DFW=16%
-CSCI 3104 - Algorithms Spring 2022 | CHEN, LIJUN | avg GPA 3.53 | N=132 | A=72% B=16% C=10% DFW=2%
-CSCI 3104 - Algorithms Spring 2022 | CHEN, LIJUN | avg GPA 3.12 | N=11 | A=55% B=18% C=18% DFW=9%
-CSCI 3104 - Algorithms Spring 2022 | LAYER,RYAN MATTHEW | avg GPA 3.53 | N=108 | A=73% B=19% C=1% DFW=11%
-CSCI 3104 - Algorithms Spring 2022 | LAYER,RYAN MATTHEW | avg GPA 3.27 | N=10 | A=80% B=0% C=0% DFW=20%
-CSCI 3104 - Algorithms Fall 2021 | GROCHOW,JOSHUA ABRAHAM | avg GPA 2.64 | N=104 | A=43% B=11% C=29% DFW=28%
-CSCI 3104 - Algorithms Fall 2021 | WAGGONER,BENJAMIN F | avg GPA 2.68 | N=113 | A=36% B=31% C=14% DFW=21%
-CSCI 3104 - Algorithms Fall 2021 | WAGGONER,BENJAMIN F | avg GPA 2.23 | N=36 | A=19% B=31% C=19% DFW=34%
-CSCI 3104 - Algorithms Spring 2021 | COX,RACHEL SUZANNE-TUTMAHER | avg GPA 2.94 | N=192 | A=32% B=40% C=23% DFW=12%
-CSCI 3104 - Algorithms Spring 2021 | MOLNAR,SAMANTHA LEE | avg GPA 2.93 | N=141 | A=30% B=38% C=30% DFW=6%
-CSCI 3104 - Algorithms Fall 2020 | CARLSON,CHARLES ANTHONY | avg GPA 2.80 | N=119 | A=45% B=24% C=13% DFW=33%
-CSCI 3104 - Algorithms Fall 2020 | DAVIES,EWAN STEPHEN DOUGLAS | avg GPA 2.69 | N=102 | A=45% B=15% C=18% DFW=39%
-CSCI 3104 - Algorithms Spring 2020 | CHEN, LIJUN | avg GPA 3.34 | N=168 | A=66% B=12% C=17% DFW=15%
-CSCI 3104 - Algorithms Spring 2020 | GROCHOW,JOSHUA ABRAHAM | avg GPA 3.39 | N=161 | A=66% B=19% C=10% DFW=11%
-CSCI 3104 - Algorithms Fall 2019 | AGRAWAL,SHIVENDRA | avg GPA 2.05 | N=93 | A=15% B=25% C=31% DFW=40%
-CSCI 3104 - Algorithms Fall 2019 | HOENIGMAN, RHONDA OLCOTT | avg GPA 2.09 | N=64 | A=27% B=23% C=11% DFW=47%
-CSCI 3104 - Algorithms Fall 2019 | HOENIGMAN, RHONDA OLCOTT | avg GPA 2.33 | N=75 | A=28% B=17% C=32% DFW=33%
-CSCI 3104 - Algorithms Spring 2019 | GROCHOW,JOSHUA ABRAHAM | avg GPA 3.08 | N=158 | A=56% B=18% C=13% DFW=27%
-CSCI 3104 - Algorithms Spring 2019 | LAYER,RYAN MATTHEW | avg GPA 2.91 | N=135 | A=45% B=26% C=14% DFW=30%
-CSCI 3104 - Algorithms Spring 2019 | RECKWERDT,ERIC ASHER | avg GPA 2.89 | N=24 | A=38% B=33% C=21% DFW=15%
-CSCI 3104 - Algorithms Fall 2018 | CHEN, LIJUN | avg GPA 2.22 | N=49 | A=10% B=35% C=33% DFW=34%
-CSCI 3104 - Algorithms Fall 2018 | HOENIGMAN, RHONDA OLCOTT | avg GPA 2.63 | N=63 | A=27% B=33% C=21% DFW=23%
-CSCI 3104 - Algorithms Fall 2018 | HOENIGMAN, RHONDA OLCOTT | avg GPA 2.35 | N=80 | A=15% B=38% C=28% DFW=26%
-CSCI 3104 - Algorithms Fall 2018 | RECKWERDT,ERIC ASHER | avg GPA 2.63 | N=12 | A=42% B=17% C=17% DFW=25%
-CSCI 3104 - Algorithms Spring 2018 | CLAUSET, AARON JULIAN | avg GPA 3.01 | N=176 | A=45% B=31% C=11% DFW=24%
-CSCI 3104 - Algorithms Spring 2018 | GROCHOW,JOSHUA ABRAHAM | avg GPA 2.96 | N=50 | A=32% B=40% C=22% DFW=15%
-CSCI 3104 - Algorithms Spring 2018 | GROCHOW,JOSHUA ABRAHAM | avg GPA 2.71 | N=32 | A=31% B=31% C=22% DFW=27%
-CSCI 3104 - Algorithms Fall 2017 | CHEN, LIJUN | avg GPA 2.33 | N=74 | A=18% B=34% C=31% DFW=26%
-CSCI 3104 - Algorithms Fall 2017 | HOENIGMAN, RHONDA OLCOTT | avg GPA 2.41 | N=54 | A=24% B=28% C=24% DFW=28%
-CSCI 3104 - Algorithms Fall 2017 | HOENIGMAN, RHONDA OLCOTT | avg GPA 2.57 | N=95 | A=32% B=24% C=24% DFW=30%
-CSCI 3104 - Algorithms Spring 2017 | CLAUSET, AARON JULIAN | avg GPA 3.13 | N=242 | A=47% B=33% C=10% DFW=14%
-CSCI 3104 - Algorithms Fall 2016 | SANKARANARAYANAN, SRIRAM | avg GPA 3.19 | N=191 | A=39% B=49% C=9% DFW=6%
-CSCI 3104 - Algorithms Spring 2016 | SANKARANARAYANAN, SRIRAM | avg GPA 3.22 | N=206 | A=37% B=48% C=13% DFW=4%
+CSCI 3104 - Algorithms grade history:
+Spring 2024 | COX,RACHEL SUZANNE-TUTMAHER | avg GPA 3.80 | N=143 | A=92% B=3% C=1% DFW=4%
+Spring 2024 | VERNEREY, DIVYA E. | avg GPA 3.85 | N=143 | A=93% B=3% C=1% DFW=3%
+Fall 2023 | NAGESH,CHANDRA KANTH | avg GPA 3.42 | N=240 | A=74% B=13% C=4% DFW=11%
+Spring 2023 | LAYER,RYAN MATTHEW | avg GPA 3.25 | N=118 | A=66% B=18% C=3% DFW=13%
 
-CSCI 1300 - Computer Science 1: Starting Computing Spring 2024 | GODLEY,CHRISTOPHER KEITH | avg GPA 2.38 | N=300 | A=26% B=31% C=17% DFW=34%
-CSCI 1300 - Computer Science 1: Starting Computing Spring 2024 | GODLEY,CHRISTOPHER KEITH | avg GPA 2.31 | N=158 | A=27% B=24% C=21% DFW=34%
-CSCI 1300 - Computer Science 1: Starting Computing Spring 2024 | MANIKONDA KESHAVAIAH NAIDU,SUPRIYA | avg GPA 2.35 | N=83 | A=29% B=24% C=19% DFW=39%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2023 | HOENIGMAN, RHONDA OLCOTT | avg GPA 2.26 | N=130 | A=20% B=34% C=20% DFW=32%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2023 | MANIKONDA KESHAVAIAH NAIDU,SUPRIYA | avg GPA 2.66 | N=158 | A=39% B=24% C=16% DFW=32%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2023 | MANIKONDA KESHAVAIAH NAIDU,SUPRIYA | avg GPA 2.72 | N=171 | A=34% B=35% C=13% DFW=23%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2023 | NAGALAPURA RAMESH,VINAY | avg GPA 2.44 | N=207 | A=29% B=29% C=14% DFW=34%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2023 | PARK,CHANHEUM | avg GPA 2.50 | N=206 | A=28% B=31% C=17% DFW=34%
-CSCI 1300 - Computer Science 1: Starting Computing Spring 2023 | GODLEY,CHRISTOPHER KEITH | avg GPA 2.48 | N=365 | A=36% B=23% C=13% DFW=35%
-CSCI 1300 - Computer Science 1: Starting Computing Spring 2023 | HOEFER,MICHAEL JEFFERY DANIEL | avg GPA 2.99 | N=236 | A=56% B=18% C=8% DFW=24%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2022 | HOEFER,MICHAEL JEFFERY DANIEL | avg GPA 2.83 | N=313 | A=50% B=18% C=11% DFW=31%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2022 | MANIKONDA KESHAVAIAH NAIDU,SUPRIYA | avg GPA 3.04 | N=251 | A=59% B=16% C=8% DFW=28%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2022 | YEH, PEI HSIU | avg GPA 2.66 | N=234 | A=47% B=18% C=6% DFW=39%
-CSCI 1300 - Computer Science 1: Starting Computing Spring 2022 | MANIKONDA KESHAVAIAH NAIDU,SUPRIYA | avg GPA 2.91 | N=177 | A=57% B=13% C=11% DFW=31%
-CSCI 1300 - Computer Science 1: Starting Computing Spring 2022 | MANIKONDA KESHAVAIAH NAIDU,SUPRIYA | avg GPA 2.81 | N=17 | A=53% B=18% C=6% DFW=43%
-CSCI 1300 - Computer Science 1: Starting Computing Spring 2022 | YEH, PEI HSIU | avg GPA 2.83 | N=249 | A=53% B=16% C=9% DFW=37%
-CSCI 1300 - Computer Science 1: Starting Computing Spring 2022 | YEH, PEI HSIU | avg GPA 1.96 | N=17 | A=35% B=6% C=18% DFW=44%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2021 | CORRELL, NICOLAUS J | avg GPA 2.77 | N=188 | A=45% B=23% C=11% DFW=33%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2021 | CORRELL, NICOLAUS J | avg GPA 2.48 | N=54 | A=31% B=31% C=13% DFW=42%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2021 | HOEFER,MICHAEL JEFFERY DANIEL | avg GPA 2.80 | N=134 | A=53% B=15% C=10% DFW=33%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2021 | HOEFER,MICHAEL JEFFERY DANIEL | avg GPA 2.34 | N=26 | A=38% B=15% C=12% DFW=45%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2021 | MANIKONDA KESHAVAIAH NAIDU,SUPRIYA | avg GPA 3.12 | N=183 | A=56% B=21% C=11% DFW=22%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2021 | MANIKONDA KESHAVAIAH NAIDU,SUPRIYA | avg GPA 2.53 | N=91 | A=37% B=25% C=12% DFW=40%
-CSCI 1300 - Computer Science 1: Starting Computing Spring 2021 | ASHRAF,ASA M | avg GPA 2.74 | N=134 | A=49% B=18% C=10% DFW=37%
-CSCI 1300 - Computer Science 1: Starting Computing Spring 2021 | MANIKONDA KESHAVAIAH NAIDU,SUPRIYA | avg GPA 2.83 | N=214 | A=47% B=21% C=12% DFW=35%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2020 | FLEMING, IOANA NICOLAESCU | avg GPA 3.33 | N=266 | A=73% B=9% C=2% DFW=23%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2020 | FLEMING, IOANA NICOLAESCU | avg GPA 3.31 | N=15 | A=67% B=13% C=7% DFW=32%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2020 | MANIKONDA KESHAVAIAH NAIDU,SUPRIYA | avg GPA 3.22 | N=249 | A=70% B=7% C=5% DFW=27%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2020 | MANIKONDA KESHAVAIAH NAIDU,SUPRIYA | avg GPA 3.44 | N=16 | A=81% B=0% C=0% DFW=41%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2020 | QUIGLEY, DAVID PHILP | avg GPA 3.24 | N=135 | A=72% B=5% C=4% DFW=24%
-CSCI 1300 - Computer Science 1: Starting Computing Spring 2020 | ASHRAF,ASA M | avg GPA 3.04 | N=141 | A=49% B=26% C=13% DFW=30%
-CSCI 1300 - Computer Science 1: Starting Computing Spring 2020 | COX, MURRAY WILLIAM | avg GPA 3.02 | N=282 | A=53% B=19% C=13% DFW=28%
-CSCI 1300 - Computer Science 1: Starting Computing Spring 2020 | COX, MURRAY WILLIAM | avg GPA 3.50 | N=43 | A=70% B=16% C=9% DFW=15%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2019 | ASHRAF,ASA M | avg GPA 2.85 | N=158 | A=42% B=30% C=12% DFW=27%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2019 | CORRELL, NICOLAUS J | avg GPA 2.74 | N=193 | A=48% B=17% C=15% DFW=36%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2019 | COX, MURRAY WILLIAM | avg GPA 2.91 | N=148 | A=49% B=23% C=11% DFW=34%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2019 | FLEMING, IOANA NICOLAESCU | avg GPA 3.00 | N=200 | A=53% B=18% C=14% DFW=28%
-CSCI 1300 - Computer Science 1: Starting Computing Spring 2019 | FLEMING, IOANA NICOLAESCU | avg GPA 2.67 | N=242 | A=42% B=23% C=15% DFW=39%
-CSCI 1300 - Computer Science 1: Starting Computing Spring 2019 | KIM,GEENA | avg GPA 3.70 | N=21 | A=86% B=10% C=0% DFW=26%
-CSCI 1300 - Computer Science 1: Starting Computing Spring 2019 | WONG, ANTHONY | avg GPA 2.88 | N=143 | A=57% B=11% C=11% DFW=38%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2018 | FLEMING, IOANA NICOLAESCU | avg GPA 2.55 | N=315 | A=38% B=21% C=17% DFW=36%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2018 | FLEMING, IOANA NICOLAESCU | avg GPA 2.57 | N=239 | A=38% B=21% C=18% DFW=32%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2018 | STADE, ELISABETH | avg GPA 3.84 | N=37 | A=86% B=14% C=0% DFW=16%
-CSCI 1300 - Computer Science 1: Starting Computing Spring 2018 | FLEMING, IOANA NICOLAESCU | avg GPA 2.60 | N=270 | A=35% B=28% C=14% DFW=36%
-CSCI 1300 - Computer Science 1: Starting Computing Spring 2018 | GUPTA,VIPRA | avg GPA 2.59 | N=142 | A=36% B=24% C=18% DFW=34%
-CSCI 1300 - Computer Science 1: Starting Computing Spring 2018 | JOHNSON, GABRIEL GOEHRING | avg GPA 3.69 | N=28 | A=79% B=18% C=0% DFW=10%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2017 | KNOX,DAVID ALLEN | avg GPA 3.07 | N=259 | A=58% B=16% C=12% DFW=31%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2017 | KNOX,DAVID ALLEN | avg GPA 2.95 | N=244 | A=54% B=19% C=8% DFW=35%
-CSCI 1300 - Computer Science 1: Starting Computing Spring 2017 | KNOX,DAVID ALLEN | avg GPA 2.89 | N=309 | A=47% B=25% C=11% DFW=40%
-CSCI 1300 - Computer Science 1: Starting Computing Fall 2016 | KNOX,DAVID ALLEN | avg GPA 2.88 | N=349 | A=48% B=23% C=9% DFW=34%
-CSCI 1300 - Computer Science 1: Starting Computing Spring 2016 | ST DENIS,LISE ANN | avg GPA 3.11 | N=178 | A=53% B=24% C=13% DFW=20%
-CSCI 1300 - Computer Science 1: Starting Computing Spring 2016 | VIRKAR, YOGESH SHRIKANT | avg GPA 2.87 | N=157 | A=47% B=24% C=11% DFW=28%
+CSCI 3104 - Algorithms grade history:
+Spring 2023 | NAGESH,CHANDRA KANTH | avg GPA 3.30 | N=132 | A=65% B=18% C=8% DFW=8%
+Fall 2022 | GROCHOW,JOSHUA ABRAHAM | avg GPA 3.31 | N=97 | A=64% B=20% C=9% DFW=11%
+Fall 2022 | NAGESH,CHANDRA KANTH | avg GPA 3.04 | N=145 | A=53% B=24% C=10% DFW=16%
+Spring 2022 | CHEN, LIJUN | avg GPA 3.53 | N=132 | A=72% B=16% C=10% DFW=2%
 
-CSCI 2270 - Computer Science 2: Data Structures Spring 2024 | ASHRAF,ASA M | avg GPA 3.24 | N=213 | A=57% B=25% C=8% DFW=13%
-CSCI 2270 - Computer Science 2: Data Structures Spring 2024 | ASHRAF,ASA M | avg GPA 2.97 | N=227 | A=44% B=32% C=11% DFW=18%
-CSCI 2270 - Computer Science 2: Data Structures Fall 2023 | ASHRAF,ASA M | avg GPA 2.88 | N=156 | A=35% B=38% C=10% DFW=19%
-CSCI 2270 - Computer Science 2: Data Structures Fall 2023 | GODLEY,CHRISTOPHER KEITH | avg GPA 2.97 | N=112 | A=42% B=30% C=15% DFW=23%
-CSCI 2270 - Computer Science 2: Data Structures Spring 2023 | ASHRAF,ASA M | avg GPA 3.19 | N=220 | A=51% B=31% C=10% DFW=12%
-CSCI 2270 - Computer Science 2: Data Structures Spring 2023 | TRIVEDI,ASHUTOSH | avg GPA 3.25 | N=252 | A=53% B=32% C=6% DFW=12%
-CSCI 2270 - Computer Science 2: Data Structures Fall 2022 | ASHRAF,ASA M | avg GPA 2.85 | N=136 | A=32% B=40% C=15% DFW=21%
-CSCI 2270 - Computer Science 2: Data Structures Fall 2022 | ASHRAF,ASA M | avg GPA 2.80 | N=147 | A=33% B=38% C=13% DFW=24%
-CSCI 2270 - Computer Science 2: Data Structures Spring 2022 | ASHRAF,ASA M | avg GPA 3.30 | N=110 | A=63% B=21% C=7% DFW=17%
-CSCI 2270 - Computer Science 2: Data Structures Spring 2022 | TRIVEDI,ASHUTOSH | avg GPA 2.82 | N=119 | A=45% B=22% C=17% DFW=24%
-CSCI 2270 - Computer Science 2: Data Structures Spring 2022 | TRIVEDI,ASHUTOSH | avg GPA 2.53 | N=10 | A=30% B=20% C=30% DFW=43%
-CSCI 2270 - Computer Science 2: Data Structures Spring 2022 | ZAGRODZKI,MACIEJ J | avg GPA 3.43 | N=168 | A=68% B=17% C=6% DFW=14%
-CSCI 2270 - Computer Science 2: Data Structures Fall 2021 | ASHRAF,ASA M | avg GPA 1.75 | N=104 | A=0% B=36% C=27% DFW=67%
-CSCI 2270 - Computer Science 2: Data Structures Fall 2021 | ASHRAF,ASA M | avg GPA 2.31 | N=37 | A=27% B=24% C=19% DFW=37%
-CSCI 2270 - Computer Science 2: Data Structures Fall 2021 | ASHRAF,ASA M | avg GPA 2.86 | N=70 | A=49% B=26% C=6% DFW=27%
-CSCI 2270 - Computer Science 2: Data Structures Fall 2021 | ASHRAF,ASA M | avg GPA 2.34 | N=54 | A=26% B=26% C=13% DFW=44%
-CSCI 2270 - Computer Science 2: Data Structures Spring 2021 | TRIVEDI,ASHUTOSH | avg GPA 3.09 | N=259 | A=53% B=22% C=13% DFW=18%
-CSCI 2270 - Computer Science 2: Data Structures Spring 2021 | ZAGRODZKI,MACIEJ J | avg GPA 3.04 | N=198 | A=53% B=23% C=10% DFW=17%
-CSCI 2270 - Computer Science 2: Data Structures Fall 2020 | ASHRAF,ASA M | avg GPA 2.81 | N=164 | A=44% B=26% C=10% DFW=28%
-CSCI 2270 - Computer Science 2: Data Structures Fall 2020 | ZAGRODZKI,MACIEJ J | avg GPA 2.80 | N=196 | A=42% B=27% C=12% DFW=27%
-CSCI 2270 - Computer Science 2: Data Structures Spring 2020 | ASHRAF,ASA M | avg GPA 3.40 | N=125 | A=64% B=23% C=9% DFW=11%
-CSCI 2270 - Computer Science 2: Data Structures Spring 2020 | TRIVEDI,ASHUTOSH | avg GPA 3.04 | N=187 | A=48% B=29% C=11% DFW=23%
-CSCI 2270 - Computer Science 2: Data Structures Spring 2020 | ZAGRODZKI,MACIEJ J | avg GPA 3.50 | N=183 | A=74% B=15% C=4% DFW=11%
-CSCI 2270 - Computer Science 2: Data Structures Fall 2019 | GODLEY,CHRISTOPHER KEITH | avg GPA 3.07 | N=208 | A=52% B=26% C=10% DFW=20%
-CSCI 2270 - Computer Science 2: Data Structures Fall 2019 | ZAGRODZKI,MACIEJ J | avg GPA 3.29 | N=178 | A=65% B=19% C=8% DFW=15%
-CSCI 2270 - Computer Science 2: Data Structures Spring 2019 | AGHLI, SINA | avg GPA 2.83 | N=27 | A=56% B=19% C=4% DFW=30%
-CSCI 2270 - Computer Science 2: Data Structures Spring 2019 | GUPTA,SHAYON | avg GPA 3.31 | N=170 | A=61% B=20% C=11% DFW=19%
-CSCI 2270 - Computer Science 2: Data Structures Spring 2019 | TRIVEDI,ASHUTOSH | avg GPA 3.19 | N=169 | A=57% B=24% C=6% DFW=23%
-CSCI 2270 - Computer Science 2: Data Structures Spring 2019 | ZAGRODZKI,MACIEJ J | avg GPA 3.56 | N=139 | A=78% B=13% C=4% DFW=10%
-CSCI 2270 - Computer Science 2: Data Structures Fall 2018 | BOESE, ELIZABETH SUGAR | avg GPA 2.91 | N=215 | A=47% B=25% C=16% DFW=21%
-CSCI 2270 - Computer Science 2: Data Structures Fall 2018 | GUPTA,SHAYON | avg GPA 3.28 | N=158 | A=60% B=23% C=8% DFW=20%
-CSCI 2270 - Computer Science 2: Data Structures Fall 2018 | NELSON,THOMAS HARRISON | avg GPA 3.41 | N=24 | A=70% B=22% C=0% DFW=16%
-CSCI 2270 - Computer Science 2: Data Structures Spring 2018 | HOENIGMAN, RHONDA OLCOTT | avg GPA 3.05 | N=270 | A=49% B=25% C=14% DFW=16%
-CSCI 2270 - Computer Science 2: Data Structures Spring 2018 | ZAGRODZKI,MACIEJ J | avg GPA 3.48 | N=93 | A=75% B=10% C=7% DFW=10%
-CSCI 2270 - Computer Science 2: Data Structures Spring 2018 | ZIETZ,JASON IAN | avg GPA 3.10 | N=84 | A=56% B=21% C=7% DFW=24%
-CSCI 2270 - Computer Science 2: Data Structures Fall 2017 | BOESE, ELIZABETH SUGAR | avg GPA 3.50 | N=191 | A=75% B=10% C=9% DFW=12%
-CSCI 2270 - Computer Science 2: Data Structures Fall 2017 | BOESE, ELIZABETH SUGAR | avg GPA 3.42 | N=161 | A=71% B=16% C=6% DFW=12%
-CSCI 2270 - Computer Science 2: Data Structures Spring 2017 | HOENIGMAN, RHONDA OLCOTT | avg GPA 3.16 | N=381 | A=58% B=22% C=7% DFW=21%
-CSCI 2270 - Computer Science 2: Data Structures Spring 2017 | JACOBSON,LINDA R | avg GPA 2.68 | N=49 | A=41% B=22% C=16% DFW=30%
-CSCI 2270 - Computer Science 2: Data Structures Fall 2016 | BOESE, ELIZABETH SUGAR | avg GPA 3.26 | N=254 | A=58% B=27% C=6% DFW=20%
-CSCI 2270 - Computer Science 2: Data Structures Spring 2016 | HOENIGMAN, RHONDA OLCOTT | avg GPA 3.16 | N=329 | A=58% B=19% C=10% DFW=25%
+CSCI 3104 - Algorithms grade history:
+Spring 2022 | CHEN, LIJUN | avg GPA 3.12 | N=11 | A=55% B=18% C=18% DFW=9%
+Spring 2022 | LAYER,RYAN MATTHEW | avg GPA 3.53 | N=108 | A=73% B=19% C=1% DFW=11%
+Spring 2022 | LAYER,RYAN MATTHEW | avg GPA 3.27 | N=10 | A=80% B=0% C=0% DFW=20%
+Fall 2021 | GROCHOW,JOSHUA ABRAHAM | avg GPA 2.64 | N=104 | A=43% B=11% C=29% DFW=28%
 
-CSCI 3155 - Principles of Programming Languages Spring 2024 | WILSON,SPENCER DAVID | avg GPA 3.55 | N=272 | A=69% B=22% C=7% DFW=3%
-CSCI 3155 - Principles of Programming Languages Fall 2023 | KAKI,GOWTHAM | avg GPA 3.56 | N=130 | A=67% B=26% C=5% DFW=3%
-CSCI 3155 - Principles of Programming Languages Spring 2023 | SANKARANARAYANAN, SRIRAM | avg GPA 3.35 | N=251 | A=48% B=42% C=6% DFW=6%
-CSCI 3155 - Principles of Programming Languages Fall 2022 | CHANG, BOR-YUH EVAN | avg GPA 2.54 | N=154 | A=21% B=33% C=39% DFW=19%
-CSCI 3155 - Principles of Programming Languages Spring 2022 | KAKI,GOWTHAM | avg GPA 3.35 | N=202 | A=59% B=28% C=11% DFW=6%
-CSCI 3155 - Principles of Programming Languages Spring 2022 | KAKI,GOWTHAM | avg GPA 3.30 | N=25 | A=52% B=28% C=20% DFW=0%
-CSCI 3155 - Principles of Programming Languages Fall 2021 | NELSON,THOMAS HARRISON | avg GPA 3.83 | N=67 | A=90% B=7% C=3% DFW=1%
-CSCI 3155 - Principles of Programming Languages Fall 2021 | NELSON,THOMAS HARRISON | avg GPA 3.74 | N=177 | A=79% B=18% C=3% DFW=4%
-CSCI 3155 - Principles of Programming Languages Spring 2021 | SANKARANARAYANAN, SRIRAM | avg GPA 3.29 | N=233 | A=58% B=25% C=11% DFW=9%
-CSCI 3155 - Principles of Programming Languages Fall 2020 | SANKARANARAYANAN, SRIRAM | avg GPA 3.54 | N=77 | A=65% B=27% C=8% DFW=1%
-CSCI 3155 - Principles of Programming Languages Fall 2020 | SANKARANARAYANAN, SRIRAM | avg GPA 3.33 | N=176 | A=57% B=26% C=13% DFW=6%
-CSCI 3155 - Principles of Programming Languages Spring 2020 | SANKARANARAYANAN, SRIRAM | avg GPA 3.29 | N=230 | A=50% B=32% C=14% DFW=7%
-CSCI 3155 - Principles of Programming Languages Fall 2019 | MARTIN,JACK PAUL | avg GPA 3.57 | N=205 | A=70% B=25% C=4% DFW=3%
-CSCI 3155 - Principles of Programming Languages Spring 2019 | NELSON,THOMAS HARRISON | avg GPA 2.80 | N=10 | A=30% B=30% C=30% DFW=10%
-CSCI 3155 - Principles of Programming Languages Spring 2019 | SANKARANARAYANAN, SRIRAM | avg GPA 3.34 | N=150 | A=52% B=33% C=13% DFW=2%
-CSCI 3155 - Principles of Programming Languages Spring 2019 | WILSON,SPENCER DAVID | avg GPA 3.13 | N=41 | A=46% B=32% C=17% DFW=7%
-CSCI 3155 - Principles of Programming Languages Fall 2018 | SANKARANARAYANAN, SRIRAM | avg GPA 3.28 | N=168 | A=46% B=40% C=13% DFW=7%
-CSCI 3155 - Principles of Programming Languages Spring 2018 | NELSON,THOMAS HARRISON | avg GPA 2.64 | N=131 | A=27% B=32% C=28% DFW=18%
-CSCI 3155 - Principles of Programming Languages Fall 2017 | HAMMER,MATTHEW A | avg GPA 3.61 | N=128 | A=67% B=27% C=6% DFW=7%
-CSCI 3155 - Principles of Programming Languages Spring 2017 | NELSON,THOMAS HARRISON | avg GPA 2.20 | N=132 | A=17% B=24% C=38% DFW=32%
-CSCI 3155 - Principles of Programming Languages Fall 2016 | CHANG, BOR-YUH EVAN | avg GPA 2.52 | N=112 | A=18% B=31% C=40% DFW=24%
-CSCI 3155 - Principles of Programming Languages Spring 2016 | BAKER, JAMES EDWARD | avg GPA 3.22 | N=131 | A=28% B=67% C=4% DFW=7%
+CSCI 3104 - Algorithms grade history:
+Fall 2021 | WAGGONER,BENJAMIN F | avg GPA 2.68 | N=113 | A=36% B=31% C=14% DFW=21%
+Fall 2021 | WAGGONER,BENJAMIN F | avg GPA 2.23 | N=36 | A=19% B=31% C=19% DFW=34%
+Spring 2021 | COX,RACHEL SUZANNE-TUTMAHER | avg GPA 2.94 | N=192 | A=32% B=40% C=23% DFW=12%
+Spring 2021 | MOLNAR,SAMANTHA LEE | avg GPA 2.93 | N=141 | A=30% B=38% C=30% DFW=6%
+
+CSCI 3104 - Algorithms grade history:
+Fall 2020 | CARLSON,CHARLES ANTHONY | avg GPA 2.80 | N=119 | A=45% B=24% C=13% DFW=33%
+Fall 2020 | DAVIES,EWAN STEPHEN DOUGLAS | avg GPA 2.69 | N=102 | A=45% B=15% C=18% DFW=39%
+Spring 2020 | CHEN, LIJUN | avg GPA 3.34 | N=168 | A=66% B=12% C=17% DFW=15%
+Spring 2020 | GROCHOW,JOSHUA ABRAHAM | avg GPA 3.39 | N=161 | A=66% B=19% C=10% DFW=11%
+
+CSCI 3104 - Algorithms grade history:
+Fall 2019 | AGRAWAL,SHIVENDRA | avg GPA 2.05 | N=93 | A=15% B=25% C=31% DFW=40%
+Fall 2019 | HOENIGMAN, RHONDA OLCOTT | avg GPA 2.09 | N=64 | A=27% B=23% C=11% DFW=47%
+Fall 2019 | HOENIGMAN, RHONDA OLCOTT | avg GPA 2.33 | N=75 | A=28% B=17% C=32% DFW=33%
+Spring 2019 | GROCHOW,JOSHUA ABRAHAM | avg GPA 3.08 | N=158 | A=56% B=18% C=13% DFW=27%
+
+CSCI 3104 - Algorithms grade history:
+Spring 2019 | LAYER,RYAN MATTHEW | avg GPA 2.91 | N=135 | A=45% B=26% C=14% DFW=30%
+Spring 2019 | RECKWERDT,ERIC ASHER | avg GPA 2.89 | N=24 | A=38% B=33% C=21% DFW=15%
+Fall 2018 | CHEN, LIJUN | avg GPA 2.22 | N=49 | A=10% B=35% C=33% DFW=34%
+Fall 2018 | HOENIGMAN, RHONDA OLCOTT | avg GPA 2.63 | N=63 | A=27% B=33% C=21% DFW=23%
+
+CSCI 3104 - Algorithms grade history:
+Fall 2018 | HOENIGMAN, RHONDA OLCOTT | avg GPA 2.35 | N=80 | A=15% B=38% C=28% DFW=26%
+Fall 2018 | RECKWERDT,ERIC ASHER | avg GPA 2.63 | N=12 | A=42% B=17% C=17% DFW=25%
+Spring 2018 | CLAUSET, AARON JULIAN | avg GPA 3.01 | N=176 | A=45% B=31% C=11% DFW=24%
+Spring 2018 | GROCHOW,JOSHUA ABRAHAM | avg GPA 2.96 | N=50 | A=32% B=40% C=22% DFW=15%
+
+CSCI 3104 - Algorithms grade history:
+Spring 2018 | GROCHOW,JOSHUA ABRAHAM | avg GPA 2.71 | N=32 | A=31% B=31% C=22% DFW=27%
+Fall 2017 | CHEN, LIJUN | avg GPA 2.33 | N=74 | A=18% B=34% C=31% DFW=26%
+Fall 2017 | HOENIGMAN, RHONDA OLCOTT | avg GPA 2.41 | N=54 | A=24% B=28% C=24% DFW=28%
+Fall 2017 | HOENIGMAN, RHONDA OLCOTT | avg GPA 2.57 | N=95 | A=32% B=24% C=24% DFW=30%
+
+CSCI 3104 - Algorithms grade history:
+Spring 2017 | CLAUSET, AARON JULIAN | avg GPA 3.13 | N=242 | A=47% B=33% C=10% DFW=14%
+Fall 2016 | SANKARANARAYANAN, SRIRAM | avg GPA 3.19 | N=191 | A=39% B=49% C=9% DFW=6%
+Spring 2016 | SANKARANARAYANAN, SRIRAM | avg GPA 3.22 | N=206 | A=37% B=48% C=13% DFW=4%
+
+CSCI 1300 - Computer Science 1: Starting Computing grade history:
+Spring 2024 | GODLEY,CHRISTOPHER KEITH | avg GPA 2.38 | N=300 | A=26% B=31% C=17% DFW=34%
+Spring 2024 | GODLEY,CHRISTOPHER KEITH | avg GPA 2.31 | N=158 | A=27% B=24% C=21% DFW=34%
+Spring 2024 | MANIKONDA KESHAVAIAH NAIDU,SUPRIYA | avg GPA 2.35 | N=83 | A=29% B=24% C=19% DFW=39%
+Fall 2023 | HOENIGMAN, RHONDA OLCOTT | avg GPA 2.26 | N=130 | A=20% B=34% C=20% DFW=32%
+
+CSCI 1300 - Computer Science 1: Starting Computing grade history:
+Fall 2023 | MANIKONDA KESHAVAIAH NAIDU,SUPRIYA | avg GPA 2.66 | N=158 | A=39% B=24% C=16% DFW=32%
+Fall 2023 | MANIKONDA KESHAVAIAH NAIDU,SUPRIYA | avg GPA 2.72 | N=171 | A=34% B=35% C=13% DFW=23%
+Fall 2023 | NAGALAPURA RAMESH,VINAY | avg GPA 2.44 | N=207 | A=29% B=29% C=14% DFW=34%
+Fall 2023 | PARK,CHANHEUM | avg GPA 2.50 | N=206 | A=28% B=31% C=17% DFW=34%
+
+CSCI 1300 - Computer Science 1: Starting Computing grade history:
+Spring 2023 | GODLEY,CHRISTOPHER KEITH | avg GPA 2.48 | N=365 | A=36% B=23% C=13% DFW=35%
+Spring 2023 | HOEFER,MICHAEL JEFFERY DANIEL | avg GPA 2.99 | N=236 | A=56% B=18% C=8% DFW=24%
+Fall 2022 | HOEFER,MICHAEL JEFFERY DANIEL | avg GPA 2.83 | N=313 | A=50% B=18% C=11% DFW=31%
+Fall 2022 | MANIKONDA KESHAVAIAH NAIDU,SUPRIYA | avg GPA 3.04 | N=251 | A=59% B=16% C=8% DFW=28%
+
+CSCI 1300 - Computer Science 1: Starting Computing grade history:
+Fall 2022 | YEH, PEI HSIU | avg GPA 2.66 | N=234 | A=47% B=18% C=6% DFW=39%
+Spring 2022 | MANIKONDA KESHAVAIAH NAIDU,SUPRIYA | avg GPA 2.91 | N=177 | A=57% B=13% C=11% DFW=31%
+Spring 2022 | MANIKONDA KESHAVAIAH NAIDU,SUPRIYA | avg GPA 2.81 | N=17 | A=53% B=18% C=6% DFW=43%
+Spring 2022 | YEH, PEI HSIU | avg GPA 2.83 | N=249 | A=53% B=16% C=9% DFW=37%
+
+CSCI 1300 - Computer Science 1: Starting Computing grade history:
+Spring 2022 | YEH, PEI HSIU | avg GPA 1.96 | N=17 | A=35% B=6% C=18% DFW=44%
+Fall 2021 | CORRELL, NICOLAUS J | avg GPA 2.77 | N=188 | A=45% B=23% C=11% DFW=33%
+Fall 2021 | CORRELL, NICOLAUS J | avg GPA 2.48 | N=54 | A=31% B=31% C=13% DFW=42%
+Fall 2021 | HOEFER,MICHAEL JEFFERY DANIEL | avg GPA 2.80 | N=134 | A=53% B=15% C=10% DFW=33%
+
+CSCI 1300 - Computer Science 1: Starting Computing grade history:
+Fall 2021 | HOEFER,MICHAEL JEFFERY DANIEL | avg GPA 2.34 | N=26 | A=38% B=15% C=12% DFW=45%
+Fall 2021 | MANIKONDA KESHAVAIAH NAIDU,SUPRIYA | avg GPA 3.12 | N=183 | A=56% B=21% C=11% DFW=22%
+Fall 2021 | MANIKONDA KESHAVAIAH NAIDU,SUPRIYA | avg GPA 2.53 | N=91 | A=37% B=25% C=12% DFW=40%
+Spring 2021 | ASHRAF,ASA M | avg GPA 2.74 | N=134 | A=49% B=18% C=10% DFW=37%
+
+CSCI 1300 - Computer Science 1: Starting Computing grade history:
+Spring 2021 | MANIKONDA KESHAVAIAH NAIDU,SUPRIYA | avg GPA 2.83 | N=214 | A=47% B=21% C=12% DFW=35%
+Fall 2020 | FLEMING, IOANA NICOLAESCU | avg GPA 3.33 | N=266 | A=73% B=9% C=2% DFW=23%
+Fall 2020 | FLEMING, IOANA NICOLAESCU | avg GPA 3.31 | N=15 | A=67% B=13% C=7% DFW=32%
+Fall 2020 | MANIKONDA KESHAVAIAH NAIDU,SUPRIYA | avg GPA 3.22 | N=249 | A=70% B=7% C=5% DFW=27%
+
+CSCI 1300 - Computer Science 1: Starting Computing grade history:
+Fall 2020 | MANIKONDA KESHAVAIAH NAIDU,SUPRIYA | avg GPA 3.44 | N=16 | A=81% B=0% C=0% DFW=41%
+Fall 2020 | QUIGLEY, DAVID PHILP | avg GPA 3.24 | N=135 | A=72% B=5% C=4% DFW=24%
+Spring 2020 | ASHRAF,ASA M | avg GPA 3.04 | N=141 | A=49% B=26% C=13% DFW=30%
+Spring 2020 | COX, MURRAY WILLIAM | avg GPA 3.02 | N=282 | A=53% B=19% C=13% DFW=28%
+
+CSCI 1300 - Computer Science 1: Starting Computing grade history:
+Spring 2020 | COX, MURRAY WILLIAM | avg GPA 3.50 | N=43 | A=70% B=16% C=9% DFW=15%
+Fall 2019 | ASHRAF,ASA M | avg GPA 2.85 | N=158 | A=42% B=30% C=12% DFW=27%
+Fall 2019 | CORRELL, NICOLAUS J | avg GPA 2.74 | N=193 | A=48% B=17% C=15% DFW=36%
+Fall 2019 | COX, MURRAY WILLIAM | avg GPA 2.91 | N=148 | A=49% B=23% C=11% DFW=34%
+
+CSCI 1300 - Computer Science 1: Starting Computing grade history:
+Fall 2019 | FLEMING, IOANA NICOLAESCU | avg GPA 3.00 | N=200 | A=53% B=18% C=14% DFW=28%
+Spring 2019 | FLEMING, IOANA NICOLAESCU | avg GPA 2.67 | N=242 | A=42% B=23% C=15% DFW=39%
+Spring 2019 | KIM,GEENA | avg GPA 3.70 | N=21 | A=86% B=10% C=0% DFW=26%
+Spring 2019 | WONG, ANTHONY | avg GPA 2.88 | N=143 | A=57% B=11% C=11% DFW=38%
+
+CSCI 1300 - Computer Science 1: Starting Computing grade history:
+Fall 2018 | FLEMING, IOANA NICOLAESCU | avg GPA 2.55 | N=315 | A=38% B=21% C=17% DFW=36%
+Fall 2018 | FLEMING, IOANA NICOLAESCU | avg GPA 2.57 | N=239 | A=38% B=21% C=18% DFW=32%
+Fall 2018 | STADE, ELISABETH | avg GPA 3.84 | N=37 | A=86% B=14% C=0% DFW=16%
+Spring 2018 | FLEMING, IOANA NICOLAESCU | avg GPA 2.60 | N=270 | A=35% B=28% C=14% DFW=36%
+
+CSCI 1300 - Computer Science 1: Starting Computing grade history:
+Spring 2018 | GUPTA,VIPRA | avg GPA 2.59 | N=142 | A=36% B=24% C=18% DFW=34%
+Spring 2018 | JOHNSON, GABRIEL GOEHRING | avg GPA 3.69 | N=28 | A=79% B=18% C=0% DFW=10%
+Fall 2017 | KNOX,DAVID ALLEN | avg GPA 3.07 | N=259 | A=58% B=16% C=12% DFW=31%
+Fall 2017 | KNOX,DAVID ALLEN | avg GPA 2.95 | N=244 | A=54% B=19% C=8% DFW=35%
+
+CSCI 1300 - Computer Science 1: Starting Computing grade history:
+Spring 2017 | KNOX,DAVID ALLEN | avg GPA 2.89 | N=309 | A=47% B=25% C=11% DFW=40%
+Fall 2016 | KNOX,DAVID ALLEN | avg GPA 2.88 | N=349 | A=48% B=23% C=9% DFW=34%
+Spring 2016 | ST DENIS,LISE ANN | avg GPA 3.11 | N=178 | A=53% B=24% C=13% DFW=20%
+Spring 2016 | VIRKAR, YOGESH SHRIKANT | avg GPA 2.87 | N=157 | A=47% B=24% C=11% DFW=28%
+
+CSCI 2270 - Computer Science 2: Data Structures grade history:
+Spring 2024 | ASHRAF,ASA M | avg GPA 3.24 | N=213 | A=57% B=25% C=8% DFW=13%
+Spring 2024 | ASHRAF,ASA M | avg GPA 2.97 | N=227 | A=44% B=32% C=11% DFW=18%
+Fall 2023 | ASHRAF,ASA M | avg GPA 2.88 | N=156 | A=35% B=38% C=10% DFW=19%
+Fall 2023 | GODLEY,CHRISTOPHER KEITH | avg GPA 2.97 | N=112 | A=42% B=30% C=15% DFW=23%
+
+CSCI 2270 - Computer Science 2: Data Structures grade history:
+Spring 2023 | ASHRAF,ASA M | avg GPA 3.19 | N=220 | A=51% B=31% C=10% DFW=12%
+Spring 2023 | TRIVEDI,ASHUTOSH | avg GPA 3.25 | N=252 | A=53% B=32% C=6% DFW=12%
+Fall 2022 | ASHRAF,ASA M | avg GPA 2.85 | N=136 | A=32% B=40% C=15% DFW=21%
+Fall 2022 | ASHRAF,ASA M | avg GPA 2.80 | N=147 | A=33% B=38% C=13% DFW=24%
+
+CSCI 2270 - Computer Science 2: Data Structures grade history:
+Spring 2022 | ASHRAF,ASA M | avg GPA 3.30 | N=110 | A=63% B=21% C=7% DFW=17%
+Spring 2022 | TRIVEDI,ASHUTOSH | avg GPA 2.82 | N=119 | A=45% B=22% C=17% DFW=24%
+Spring 2022 | TRIVEDI,ASHUTOSH | avg GPA 2.53 | N=10 | A=30% B=20% C=30% DFW=43%
+Spring 2022 | ZAGRODZKI,MACIEJ J | avg GPA 3.43 | N=168 | A=68% B=17% C=6% DFW=14%
+
+CSCI 2270 - Computer Science 2: Data Structures grade history:
+Fall 2021 | ASHRAF,ASA M | avg GPA 1.75 | N=104 | A=0% B=36% C=27% DFW=67%
+Fall 2021 | ASHRAF,ASA M | avg GPA 2.31 | N=37 | A=27% B=24% C=19% DFW=37%
+Fall 2021 | ASHRAF,ASA M | avg GPA 2.86 | N=70 | A=49% B=26% C=6% DFW=27%
+Fall 2021 | ASHRAF,ASA M | avg GPA 2.34 | N=54 | A=26% B=26% C=13% DFW=44%
+
+CSCI 2270 - Computer Science 2: Data Structures grade history:
+Spring 2021 | TRIVEDI,ASHUTOSH | avg GPA 3.09 | N=259 | A=53% B=22% C=13% DFW=18%
+Spring 2021 | ZAGRODZKI,MACIEJ J | avg GPA 3.04 | N=198 | A=53% B=23% C=10% DFW=17%
+Fall 2020 | ASHRAF,ASA M | avg GPA 2.81 | N=164 | A=44% B=26% C=10% DFW=28%
+Fall 2020 | ZAGRODZKI,MACIEJ J | avg GPA 2.80 | N=196 | A=42% B=27% C=12% DFW=27%
+
+CSCI 2270 - Computer Science 2: Data Structures grade history:
+Spring 2020 | ASHRAF,ASA M | avg GPA 3.40 | N=125 | A=64% B=23% C=9% DFW=11%
+Spring 2020 | TRIVEDI,ASHUTOSH | avg GPA 3.04 | N=187 | A=48% B=29% C=11% DFW=23%
+Spring 2020 | ZAGRODZKI,MACIEJ J | avg GPA 3.50 | N=183 | A=74% B=15% C=4% DFW=11%
+Fall 2019 | GODLEY,CHRISTOPHER KEITH | avg GPA 3.07 | N=208 | A=52% B=26% C=10% DFW=20%
+
+CSCI 2270 - Computer Science 2: Data Structures grade history:
+Fall 2019 | ZAGRODZKI,MACIEJ J | avg GPA 3.29 | N=178 | A=65% B=19% C=8% DFW=15%
+Spring 2019 | AGHLI, SINA | avg GPA 2.83 | N=27 | A=56% B=19% C=4% DFW=30%
+Spring 2019 | GUPTA,SHAYON | avg GPA 3.31 | N=170 | A=61% B=20% C=11% DFW=19%
+Spring 2019 | TRIVEDI,ASHUTOSH | avg GPA 3.19 | N=169 | A=57% B=24% C=6% DFW=23%
+
+CSCI 2270 - Computer Science 2: Data Structures grade history:
+Spring 2019 | ZAGRODZKI,MACIEJ J | avg GPA 3.56 | N=139 | A=78% B=13% C=4% DFW=10%
+Fall 2018 | BOESE, ELIZABETH SUGAR | avg GPA 2.91 | N=215 | A=47% B=25% C=16% DFW=21%
+Fall 2018 | GUPTA,SHAYON | avg GPA 3.28 | N=158 | A=60% B=23% C=8% DFW=20%
+Fall 2018 | NELSON,THOMAS HARRISON | avg GPA 3.41 | N=24 | A=70% B=22% C=0% DFW=16%
+
+CSCI 2270 - Computer Science 2: Data Structures grade history:
+Spring 2018 | HOENIGMAN, RHONDA OLCOTT | avg GPA 3.05 | N=270 | A=49% B=25% C=14% DFW=16%
+Spring 2018 | ZAGRODZKI,MACIEJ J | avg GPA 3.48 | N=93 | A=75% B=10% C=7% DFW=10%
+Spring 2018 | ZIETZ,JASON IAN | avg GPA 3.10 | N=84 | A=56% B=21% C=7% DFW=24%
+Fall 2017 | BOESE, ELIZABETH SUGAR | avg GPA 3.50 | N=191 | A=75% B=10% C=9% DFW=12%
+
+CSCI 2270 - Computer Science 2: Data Structures grade history:
+Fall 2017 | BOESE, ELIZABETH SUGAR | avg GPA 3.42 | N=161 | A=71% B=16% C=6% DFW=12%
+Spring 2017 | HOENIGMAN, RHONDA OLCOTT | avg GPA 3.16 | N=381 | A=58% B=22% C=7% DFW=21%
+Spring 2017 | JACOBSON,LINDA R | avg GPA 2.68 | N=49 | A=41% B=22% C=16% DFW=30%
+Fall 2016 | BOESE, ELIZABETH SUGAR | avg GPA 3.26 | N=254 | A=58% B=27% C=6% DFW=20%
+
+CSCI 2270 - Computer Science 2: Data Structures grade history:
+Spring 2016 | HOENIGMAN, RHONDA OLCOTT | avg GPA 3.16 | N=329 | A=58% B=19% C=10% DFW=25%
+
+CSCI 3155 - Principles of Programming Languages grade history:
+Spring 2024 | WILSON,SPENCER DAVID | avg GPA 3.55 | N=272 | A=69% B=22% C=7% DFW=3%
+Fall 2023 | KAKI,GOWTHAM | avg GPA 3.56 | N=130 | A=67% B=26% C=5% DFW=3%
+Spring 2023 | SANKARANARAYANAN, SRIRAM | avg GPA 3.35 | N=251 | A=48% B=42% C=6% DFW=6%
+Fall 2022 | CHANG, BOR-YUH EVAN | avg GPA 2.54 | N=154 | A=21% B=33% C=39% DFW=19%
+
+CSCI 3155 - Principles of Programming Languages grade history:
+Spring 2022 | KAKI,GOWTHAM | avg GPA 3.35 | N=202 | A=59% B=28% C=11% DFW=6%
+Spring 2022 | KAKI,GOWTHAM | avg GPA 3.30 | N=25 | A=52% B=28% C=20% DFW=0%
+Fall 2021 | NELSON,THOMAS HARRISON | avg GPA 3.83 | N=67 | A=90% B=7% C=3% DFW=1%
+Fall 2021 | NELSON,THOMAS HARRISON | avg GPA 3.74 | N=177 | A=79% B=18% C=3% DFW=4%
+
+CSCI 3155 - Principles of Programming Languages grade history:
+Spring 2021 | SANKARANARAYANAN, SRIRAM | avg GPA 3.29 | N=233 | A=58% B=25% C=11% DFW=9%
+Fall 2020 | SANKARANARAYANAN, SRIRAM | avg GPA 3.54 | N=77 | A=65% B=27% C=8% DFW=1%
+Fall 2020 | SANKARANARAYANAN, SRIRAM | avg GPA 3.33 | N=176 | A=57% B=26% C=13% DFW=6%
+Spring 2020 | SANKARANARAYANAN, SRIRAM | avg GPA 3.29 | N=230 | A=50% B=32% C=14% DFW=7%
+
+CSCI 3155 - Principles of Programming Languages grade history:
+Fall 2019 | MARTIN,JACK PAUL | avg GPA 3.57 | N=205 | A=70% B=25% C=4% DFW=3%
+Spring 2019 | NELSON,THOMAS HARRISON | avg GPA 2.80 | N=10 | A=30% B=30% C=30% DFW=10%
+Spring 2019 | SANKARANARAYANAN, SRIRAM | avg GPA 3.34 | N=150 | A=52% B=33% C=13% DFW=2%
+Spring 2019 | WILSON,SPENCER DAVID | avg GPA 3.13 | N=41 | A=46% B=32% C=17% DFW=7%
+
+CSCI 3155 - Principles of Programming Languages grade history:
+Fall 2018 | SANKARANARAYANAN, SRIRAM | avg GPA 3.28 | N=168 | A=46% B=40% C=13% DFW=7%
+Spring 2018 | NELSON,THOMAS HARRISON | avg GPA 2.64 | N=131 | A=27% B=32% C=28% DFW=18%
+Fall 2017 | HAMMER,MATTHEW A | avg GPA 3.61 | N=128 | A=67% B=27% C=6% DFW=7%
+Spring 2017 | NELSON,THOMAS HARRISON | avg GPA 2.20 | N=132 | A=17% B=24% C=38% DFW=32%
+
+CSCI 3155 - Principles of Programming Languages grade history:
+Fall 2016 | CHANG, BOR-YUH EVAN | avg GPA 2.52 | N=112 | A=18% B=31% C=40% DFW=24%
+Spring 2016 | BAKER, JAMES EDWARD | avg GPA 3.22 | N=131 | A=28% B=67% C=4% DFW=7%
