@@ -1,7 +1,4 @@
 SOURCE: Indeed — University of Colorado Boulder employee reviews
-URL: https://www.indeed.com/cmp/University-of-Colorado-Boulder/reviews
-RETRIEVED: 2026-06-07
-TYPE: Employee reviews, including TAs, graduate workers, and student workers. Overall 4.2/5 from 455 reviews.
 Detailed ratings: Work-life balance 4.1, Pay and benefits 3.5, Job security/advancement 3.5, Management 3.8, Culture 3.9.
 NOTE: One off-topic spam review (unrelated location/content) was excluded during cleaning.
 

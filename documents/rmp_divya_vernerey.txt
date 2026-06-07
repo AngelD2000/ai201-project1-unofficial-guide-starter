@@ -1,7 +1,4 @@
 SOURCE: RateMyProfessors — Divya Vernerey at CU Boulder
-URL: https://www.ratemyprofessors.com/search/professors/1087?q=Divya+Vernerey
-RETRIEVED: 2026-06-07
-TYPE: Crowd-sourced professor ratings (overall quality, difficulty, would-take-again, comments)
 
 === Divya Vernerey — Summary ===
 Overall Quality: 4.2 / 5

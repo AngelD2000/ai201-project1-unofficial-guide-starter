@@ -79,6 +79,13 @@ END_PATTERN = re.compile(r"^r/[\w-]+\s*•\s*\d+\s*(mo|y|d|h|w)\s*ago\s*$")
 # Comment header: "username • 7d ago" or "username OP • 7d ago"
 COMMENT_HEADER = re.compile(r"^[A-Za-z0-9_\-]{3,30}(\s+OP)?\s*•\s*\d+\s*(d|h|mo|y|w|min)\s*ago\s*$")
 
+# Promoted-post header: "OpenAI • Promoted", "Some Brand • Promoted", etc.
+# Real comments always end "• Nd ago", so the "• Promoted" suffix is a
+# reliable distinguisher.
+PROMOTED_HEADER = re.compile(r"^(u/)?[\w &\-.,]+\s*•\s*Promoted\s*$")
+# Safety cap so a missing comment header doesn't swallow real content.
+PROMOTED_MAX_LINES = 8
+
 # Vote-count-only lines (e.g. "128 · 12" or "2"). Used for inserting blank
 # lines after a comment block.
 VOTE_LINE = re.compile(r"^\d+\s*(·\s*\d+)?\s*$")
@@ -97,6 +104,7 @@ def _clean(raw: str) -> str:
     lines = raw.splitlines()
     cleaned: List[str] = []
     saw_first_comment = False
+    skipping_promoted = 0  # remaining lines to skip after a Promoted header
 
     for ln in lines:
         s = ln.strip()
@@ -107,6 +115,17 @@ def _clean(raw: str) -> str:
             continue
         if any(p.match(s) for p in CHROME_PATTERNS):
             continue
+        # Promoted ad: drop the header and the next few lines, until either a
+        # real comment header appears or PROMOTED_MAX_LINES are consumed.
+        if PROMOTED_HEADER.match(s):
+            skipping_promoted = PROMOTED_MAX_LINES
+            continue
+        if skipping_promoted > 0:
+            if COMMENT_HEADER.match(s):
+                skipping_promoted = 0  # fall through and process this line
+            else:
+                skipping_promoted -= 1
+                continue
         # Truncate at the related-posts list, but only AFTER we've already
         # entered the comment section — otherwise the OP subreddit line
         # ("r/cuboulder •7d ago" at the very top) would cut us off.
@@ -142,12 +161,7 @@ def _clean(raw: str) -> str:
 
 
 def _render(name: str, url: str, description: str, body: str) -> str:
-    header = (
-        f"SOURCE: {description}\n"
-        f"URL: {url}\n"
-        f"RETRIEVED: 2026-06-07\n"
-        f"TYPE: Reddit thread on r/cuboulder (post + comments)\n"
-    )
+    header = f"SOURCE: {description}\n"
     return header + "\n" + body + "\n"
 
 

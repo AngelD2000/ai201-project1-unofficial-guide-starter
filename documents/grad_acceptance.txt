@@ -1,7 +1,4 @@
 SOURCE: GradCafe — CU Boulder Computer Science graduate admissions results
-URL: https://www.thegradcafe.com/survey?q=University+of+Colorado+Boulder&program=Computer+Science
-RETRIEVED: 2026-06-07
-TYPE: Crowd-sourced grad admissions decisions (MS/PhD), with self-reported GPA and notes
 
 --- ADMISSION RESULTS (CU Boulder, Computer Science) ---
 

@@ -1,7 +1,4 @@
 SOURCE: RateMyProfessors — CJ Herman at CU Boulder
-URL: https://www.ratemyprofessors.com/professor/2520121
-RETRIEVED: 2026-06-07
-TYPE: Crowd-sourced professor ratings (overall quality, difficulty, would-take-again, comments)
 
 === CJ Herman — Summary ===
 Overall Quality: 2.7 / 5

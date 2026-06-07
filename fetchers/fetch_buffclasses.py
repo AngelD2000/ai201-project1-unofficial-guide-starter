@@ -81,12 +81,7 @@ def main():
 
     body = "\n\n".join(blocks)
 
-    header = (
-        "SOURCE: BuffClassesEDA — CU Boulder grade distributions (Spring 2016–Spring 2024)\n"
-        "URL: https://web.navan.dev/BuffClassesEDA/\n"
-        "RETRIEVED: 2026-06-07\n"
-        "TYPE: Per-section average GPA and grade-percentage breakdown by instructor\n"
-    )
+    header = "SOURCE: BuffClassesEDA — CU Boulder grade distributions (Spring 2016–Spring 2024)\n"
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUT_PATH.write_text(header + "\n" + body + "\n", encoding="utf-8")

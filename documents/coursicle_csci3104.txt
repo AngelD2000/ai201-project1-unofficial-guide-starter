@@ -1,7 +1,4 @@
 SOURCE: Coursicle — CU Boulder CSCI 3104 (Algorithms) professor list
-URL: https://www.coursicle.com/colorado/courses/CSCI/3104/
-RETRIEVED: 2026-06-07
-TYPE: Crowd-sourced course/professor ratings and student comments
 
 Divya Vernerey — CSCI 3104 Algorithms (Sophomore, 3 months ago):
 "My G.O.A.T. Will give 5 min HW extensions if asked!"
@@ -48,23 +45,23 @@ Divya Vernerey — CSCI 3104 Algorithms (Sophomore, 2 years ago):
 Divya Vernerey — CSCI 3104 Algorithms (Junior, 2 years ago):
 "Dr. Vernerey is simply wonderful. Wicked clear lectures, color-coded, great at explaining, patiently answers everything. Algo has no programming. I like the standards based grading but it's back-to-back work. Clickers for participation but everyone comes since she explains everything. Tons of office hours with the prof, TAs, CAs too. Solid class."
 
-Joshuwa Grochow — CSCI 3104 Algorithms (Rating: +2):
+Joshua Grochow — CSCI 3104 Algorithms (Rating: +2):
 "Algorithms is the hardest class I've ever taken. Grochow is good during office hours and is very available after class. Warning there is literally an insane amount of homework. Over all I'd suggest Grochow he always emailed back and seems to really care about his students and cares much more that you understand the material than just getting an A."
 
-Joshuwa Grochow — CSCI 3104 Algorithms (Rating: +1):
+Joshua Grochow — CSCI 3104 Algorithms (Rating: +1):
 "Did not respond to a single email the entire semester. Do not recommend this professor. Grades were also submitted four days after the CU 96 hour deadline giving no chance for any talking to the professors about what went wrong. Not worth paying for a professor who thinks he is above answering the simplest of emails. Highly not recommended."
 
-Joshuwa Grochow — CSCI 3104 Algorithms (Rating: 0):
+Joshua Grochow — CSCI 3104 Algorithms (Rating: 0):
 "Prof Grochow is knowledgeable and particularly good at explaining things, in my opinion. 3104 is unlike many other hard CS classes like Computer Systems or Operating Systems in that there really isn't any brute memorization, but there is a lot of homework. Best advice I can give anyone for algorithms is always have Levet's notes handy!"
 
-Joshuwa Grochow — CSCI 3104 Algorithms (Rating: 0):
+Joshua Grochow — CSCI 3104 Algorithms (Rating: 0):
 "Great professor who actually cares about teaching Algorithms. He is very knowledgeable in the field. People who are giving bad ratings are the ones that got bad grades. 9/10 would take his class again (not 10/10 because it can be pretty hard :))"
 
-Joshuwa Grochow — CSCI 3104 Algorithms (Rating: -1):
+Joshua Grochow — CSCI 3104 Algorithms (Rating: -1):
 "He is very knowledgeable on algorithms, and he really cares about the success of his students. Algorithms is definitely the hardest class I've taken, and the homework is VERY time consuming. But he truly cares about the success of his students, and he does everything he can to make sure you understand the content."
 
-Joshuwa Grochow — CSCI 3104 Algorithms (Rating: -1):
+Joshua Grochow — CSCI 3104 Algorithms (Rating: -1):
 "He is the type of teacher that lifts the mood at the beginning of class by talking of ideas/applications of the algorithms. His lectures start from a blank piece of paper (on the projectors), which is good because he doesn't recite from a textbook/material (he knows his stuff), but its bad because his hand writing sucks sometimes. Smart, nice prof."
 
-Joshuwa Grochow — CSCI 3104 Algorithms (Rating: -2):
+Joshua Grochow — CSCI 3104 Algorithms (Rating: -2):
 "Not as clear as some other professors, but still a solid choice for Algorithms."

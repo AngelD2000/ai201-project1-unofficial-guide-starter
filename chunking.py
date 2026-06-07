@@ -154,11 +154,47 @@ def chunk_documents(documents, chunk_size=CHUNK_SIZE, chunk_overlap=CHUNK_OVERLA
     return chunks
 
 
+def _print_chunk(c):
+    print(f"--- chunk {c['chunk_id']} ({c['char_count']} chars) | {c['source'][:80]} ---")
+    if c.get("url"):
+        print(c["url"])
+    print(c["text"])
+    print()
+
+
 if __name__ == "__main__":
+    import argparse
     from load_document import load_documents
+
+    ap = argparse.ArgumentParser(description="Chunk documents and inspect the result")
+    ap.add_argument("--show", nargs="+", type=int, metavar="ID",
+                    help="Print the full text of chunk(s) by chunk_id")
+    ap.add_argument("--source", metavar="SUBSTRING",
+                    help="Print all chunks whose source contains this substring (case-insensitive)")
+    args = ap.parse_args()
 
     docs = load_documents()
     chunks = chunk_documents(docs)
+    print(f"(corpus: {len(chunks)} chunks across {len(docs)} documents — valid id range 0..{len(chunks) - 1})\n")
+
+    if args.show is not None:
+        for cid in args.show:
+            if 0 <= cid < len(chunks):
+                _print_chunk(chunks[cid])
+            else:
+                print(f"(no chunk with id {cid}; valid range 0..{len(chunks) - 1})")
+        raise SystemExit
+
+    if args.source is not None:
+        needle = args.source.lower()
+        matches = [c for c in chunks if needle in c["source"].lower()]
+        if not matches:
+            print(f"No chunks matched source substring {args.source!r}.")
+            raise SystemExit
+        for c in matches:
+            _print_chunk(c)
+        print(f"{len(matches)} chunk(s) matched.")
+        raise SystemExit
 
     sizes = [c["char_count"] for c in chunks]
     print(f"{len(docs)} documents -> {len(chunks)} chunks")

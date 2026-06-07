@@ -1,7 +1,4 @@
 SOURCE: BuffClassesEDA — CU Boulder grade distributions (Spring 2016–Spring 2024)
-URL: https://web.navan.dev/BuffClassesEDA/
-RETRIEVED: 2026-06-07
-TYPE: Per-section average GPA and grade-percentage breakdown by instructor
 
 --- CSCI 3104 — Algorithms ---
 

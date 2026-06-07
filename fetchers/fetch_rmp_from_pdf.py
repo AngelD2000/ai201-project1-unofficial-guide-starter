@@ -172,13 +172,7 @@ def _strip_chrome(text: str, prof_patterns: List[re.Pattern]) -> str:
 
 
 def _render(prof_name: str, url: str, summary: dict, body: str) -> str:
-    header = (
-        f"SOURCE: RateMyProfessors — {prof_name} at CU Boulder\n"
-        f"URL: {url}\n"
-        f"RETRIEVED: 2026-06-07\n"
-        f"TYPE: Crowd-sourced professor ratings (overall quality, difficulty, "
-        f"would-take-again, comments)\n"
-    )
+    header = f"SOURCE: RateMyProfessors — {prof_name} at CU Boulder\n"
     summary_block = [f"=== {prof_name} — Summary ==="]
     if "overall_quality" in summary:
         summary_block.append(f"Overall Quality: {summary['overall_quality']} / 5")

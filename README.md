@@ -52,7 +52,52 @@
 
 **Why these choices fit your documents:**
 
-**Final chunk count:**
+**Final chunk count:** 259
+
+**Sample chunks** (output of `.venv/bin/python chunking.py --show 5 96 120 140 256`):
+
+```
+(corpus: 259 chunks across 12 documents — valid id range 0..258)
+
+--- chunk 5 (502 chars) | BuffClassesEDA — CU Boulder grade distributions (Spring 2016–Spring 2024) ---
+Spring 2019 | RECKWERDT,ERIC ASHER | avg GPA 2.89 | N=24 | A=38% B=33% C=21% DFW=15%
+Fall 2018 | CHEN, LIJUN | avg GPA 2.22 | N=49 | A=10% B=35% C=33% DFW=34%
+Fall 2018 | HOENIGMAN, RHONDA OLCOTT | avg GPA 2.63 | N=63 | A=27% B=33% C=21% DFW=23%
+Fall 2018 | HOENIGMAN, RHONDA OLCOTT | avg GPA 2.35 | N=80 | A=15% B=38% C=28% DFW=26%
+Fall 2018 | RECKWERDT,ERIC ASHER | avg GPA 2.63 | N=12 | A=42% B=17% C=17% DFW=25%
+Spring 2018 | CLAUSET, AARON JULIAN | avg GPA 3.01 | N=176 | A=45% B=31% C=11% DFW=24%
+
+--- chunk 96 (242 chars) | Reddit — diversity and acceptance ---
+Unknownjarman OP • 1y ago
+Iʼm always on edge anywhere better safe than sorry. Also I play in a band maybe Iʼll find some new
+bandmates there
+
+Routine_Force8625 • 1y ago
+i play guitar, and am into punk and french house. so holler
+
+1 more reply
+
+--- chunk 120 (487 chars) | Reddit — dorm life tips (Q3 source for laundry) ---
+one that will be bright enough to fill the room, so you can come back at night, turn it on, and be in a
+comfortable environment. I've had this one for all 6 years, and it's now happily in my apartment. Collapses
+away and is packed easily.
+- Shop fan.
+A tall rotating one will be annoying during moves. I ended up opting for a proper shop fan, which can clamp
+onto edges, be hung on the wall or magnetically stuck on the side of the microwave, and is quite powerful.
+- Portable door lock.
+
+--- chunk 140 (297 chars) | Reddit — CS majors perspectives at CU Boulder ---
+However Iʼve heard mixed opinions on if CU is actually better than CSU/Mines or worth it tuition wise. Itʼs the
+second most expensive school Iʼm looking at next to Purdue, but it also seems really impressive for an in state
+school.
+Any thoughts, perspectives, experiences, regrets?
+Thanks so much!
+
+--- chunk 256 (323 chars) | Niche — University of Colorado Boulder student reviews ---
+[Junior, 5/5] CU Boulder has allowed me to delve into experimental learning with classes focused on applying conceptual understandings to real-world problems. The learning environment is empowering.
+
+[Freshman, 5/5] I love the culture and the academics are very good. The campus life is good and it is easy to get involved.
+```
 
 ---
 

@@ -1,7 +1,4 @@
 SOURCE: RateMyProfessors — Joshua Grochow at CU Boulder
-URL: https://www.ratemyprofessors.com/search/professors/1087?q=Joshua+Grochow
-RETRIEVED: 2026-06-07
-TYPE: Crowd-sourced professor ratings (overall quality, difficulty, would-take-again, comments)
 
 === Joshua Grochow — Summary ===
 Overall Quality: 4.3 / 5
