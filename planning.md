@@ -108,6 +108,7 @@ If I were to develop this for production users I'd weigh faithfulness, cost and 
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
 
 <img src="image/Architecture.png" width="300">
+
 ---
 
 ## AI Tool Plan
