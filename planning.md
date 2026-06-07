@@ -107,10 +107,8 @@ If I were to develop this for production users I'd weigh faithfulness, cost and 
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
 
+<img src="image/Architecture.png" width="300">
 ---
-
-![Architecture](image/Architecture.png)
-
 
 ## AI Tool Plan
 
