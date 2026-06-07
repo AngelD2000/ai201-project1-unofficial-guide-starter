@@ -28,7 +28,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent
 load_dotenv(PROJECT_ROOT / ".env")
 
 MODEL = "llama-3.3-70b-versatile"
-DEFAULT_K = 5
+DEFAULT_K = 10
 NO_INFO_REPLY = "I don't have enough information on that."
 
 CONTEXTUALIZE_PROMPT = """Given the chat history and the latest user question, rewrite the question so it stands alone without the chat history. Resolve pronouns and short follow-ups (e.g. "his comments", "what about her?", "more on that") into explicit references using names, courses, or topics from the prior turns.
