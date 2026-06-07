@@ -7,5 +7,6 @@ python-dotenv==1.0.1
 # gradio>=6.9.0
 # streamlit>=1.40.0
 
-# Document ingestion — add if your documents/ folder contains .pdf files:
-# pdfplumber==0.11.4
+# Document ingestion — used by fetchers/fetch_reddit_from_pdf.py and
+# fetchers/fetch_rmp_from_pdf.py to extract text from browser-printed PDFs.
+pdfplumber==0.11.4

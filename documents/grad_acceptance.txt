@@ -1,0 +1,56 @@
+SOURCE: GradCafe — CU Boulder Computer Science graduate admissions results
+URL: https://www.thegradcafe.com/survey?q=University+of+Colorado+Boulder&program=Computer+Science
+RETRIEVED: 2026-06-07
+TYPE: Crowd-sourced grad admissions decisions (MS/PhD), with self-reported GPA and notes
+
+--- ADMISSION RESULTS (CU Boulder, Computer Science) ---
+
+PhD | Rejected on Feb 27 | Fall 2026 | International | No interview (added Mar 30, 2026)
+
+PhD | Rejected on Feb 28 | Fall 2026 | International | GPA 3.78
+Note: Email in the spam folder told applicant to check the portal. (added Mar 12, 2026)
+
+Masters | Accepted on Mar 02 | Fall 2026 | American | GPA 3.70 (added Mar 02, 2026)
+
+PhD | Rejected on Feb 27 | Fall 2026 | International | GPA 3.70
+Note: Email was marked as spam. No authored or published papers, some research experience. (added Mar 02, 2026)
+
+PhD | Rejected on Feb 27 | Fall 2026 | International | GPA 3.91 (added Mar 01, 2026)
+
+PhD | Rejected on Feb 27 | Fall 2026 | International | GPA 4.00
+Note: No publications. One internship. Honors thesis, TA work and lab work. (added Feb 28, 2026)
+
+PhD | Rejected on Feb 27 | Fall 2026 | American | GPA 3.87 (added Feb 28, 2026)
+
+PhD | Rejected on Feb 27 | Fall 2026 | International | GPA 3.83 (added Feb 28, 2026)
+
+PhD | Rejected on Feb 27 | Fall 2026 | International | GPA 3.98
+Note: 1 top conference. (added Feb 28, 2026)
+
+PhD | Rejected on Feb 27 | Fall 2026 | International
+Note: Top 10% of class, 2 publications (1 IEEE conference and 1 Q2 Journal). (added Feb 27, 2026)
+
+PhD | Rejected on Feb 27 | Fall 2026 | American (added Feb 27, 2026)
+
+PhD | Rejected on Feb 27 | Fall 2026 | American | GPA 3.65
+Note: Was invited to the Open House and attended it, still got rejected. (added Feb 27, 2026)
+
+PhD | Rejected on Feb 27 | Fall 2026 | American | GPA 3.81
+Note: Email to check portal, flagged as spam. (added Feb 27, 2026)
+
+PhD | Rejected on Feb 27 | Fall 2026 | International | No interview (added Feb 27, 2026)
+
+PhD | Rejected on Feb 27 | Fall 2026 | International | GPA 4.00
+Note: Just a general email to check status. (added Feb 27, 2026)
+
+PhD | Rejected on Feb 27 | Fall 2026 | International | GPA 3.98
+Note: Standard email to check the portal. (added Feb 27, 2026)
+
+PhD | Rejected on Feb 27 | Fall 2026 | International | GPA 3.90 (added Feb 27, 2026)
+
+Masters | Rejected on Feb 27 | Fall 2026 | American (added Feb 27, 2026)
+
+Masters | Accepted on Feb 25 | Fall 2026 | International (added Feb 25, 2026)
+
+--- SUMMARY OBSERVATIONS ---
+For Fall 2026, the two confirmed Masters acceptances were one American applicant with GPA 3.70 and one International applicant (GPA not reported). PhD rejections span a wide GPA range — 3.65, 3.78, 3.81, 3.83, 3.87, 3.90, 3.91, 3.98, and 4.00 — including applicants with publications and top-conference papers. This suggests PhD admissions depend heavily on research fit, publications, and advisor availability rather than GPA alone, while the MS program appears attainable around a 3.70 GPA.

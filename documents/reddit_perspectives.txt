@@ -1,0 +1,89 @@
+SOURCE: Reddit — CS majors perspectives at CU Boulder
+URL: https://www.reddit.com/r/cuboulder/comments/1qkaql1/perspectives_from_cu_boulder_cs_majors/
+RETRIEVED: 2026-06-07
+TYPE: Reddit thread on r/cuboulder (post + comments)
+
+r/cuboulder •5mo ago
+sleepybiscu1t
+Perspectives from CU Boulder CS Majors?
+Hello, prospective Buff here!
+I was curious if any CS majors had experiences to share. Iʼm curious about the program, job prospects
+(specific to CU, ik they suck in general), and anything else.
+Are the career fairs good? Are there internships nearby? Etc.
+As an in state student, relative to every other school in Colorado, CU is ranked quite high for CS (#39).
+However Iʼve heard mixed opinions on if CU is actually better than CSU/Mines or worth it tuition wise. Itʼs the
+second most expensive school Iʼm looking at next to Purdue, but it also seems really impressive for an in state
+school.
+Any thoughts, perspectives, experiences, regrets?
+Thanks so much!
+
+purrmutations • 5mo ago
+It is not worth it for out of state tuition, but that doesn't matter to a lot of people who are able to attend
+CU.
+I wouldn't say there is anything special about the CS program. Certainly nothing you couldn't/wouldn't
+learn at basically any CS program. But if you are interested in the Aerospace industry, there will be some
+good internship and job opportunities with the close tie between that industry and CU. Job opportunities
+are still great for CS btw. They are #4 in employed in a job that requires a degree, behind computer
+engineering, medical doctor, and another engineering. No other career gives you such a good chance to
+get a remote job making 6 figures either right after graduating or within just a couple years. AI is
+obviously going to shake everything up, but the troubles CS have will be felt by all degrees eventually. If
+you enjoy coding I would still recommend it as a degree.
+The town itself is awesome, and being right there next to the mountains also awesome. Convenient bus
+ride to the airport is available. Denver is ok for a bigger city, though its too spread out imo compared to
+other metro areas.
+
+sleepybiscu1tOP • 5mo ago
+Iʼve heard CU is great for Aerospace so that makes sense. Thanks for the insight!
+
+Skagra42 • 5mo ago
+I did my bachelors at CSU and am now doing my masters at CU. In my opinion, the computer science
+program is much better here. Thereʼs more focus on subjects like CS theory over much less important
+software engineering stuff. Not sure how it compares to Mines or Purdue.
+
+sleepybiscu1tOP • 5mo ago
+Hm I definitely see your point. Though I wonder how it would shake out as someone interested in
+software engineering… You offer a very unique perspective having gone to both places, thank you!
+
+purrmutations • 4mo ago
+Theory is not as important for the majority of good jobs in CS though.
+
+East-Status9230 • 5mo ago
+I graduated from CU In Aerospace and Applied Math. I wish I studied CS because as an Intl student I had
+trouble getting jobs in Aero, and this was 15 years ago and I was not well versed with the job market.
+I think if you chose CS, there are better schools out there for it, but definitely the opportunity you get in
+Aero is second to none. I would also look at schools in Denver, or out of state like Purdue or OSU where
+tuition is comparable even as out of state student. Wish you the best.
+
+sleepybiscu1tOP • 5mo ago
+Very helpful, thank you for the input!
+
+Original_Pickle_104 • 4mo ago
+I had a great experience at CU. I am out-of-state and had roughly 50% covered by family, with the other
+half on me to pay off after school. So thatʼs a major consideration. For Colorado, I think itʼs the best CS
+program and I know a couple of people who transferred from other schools who would agree.
+I would say CU is a mixed bag with classes. I had some classes where the teachers would be super
+invested, create their own curriculum, etc. The math classes tended to be the higher quality professors.
+Then, I would have other teachers who had material completely taken from a Carnegie Mellon course. My
+into to robotics class was through Coursera for Christ sake and it didnʼt seem to be worth the $12,000 a
+semester I was paying. With that said, thereʼs flexibility in which courses you can take and drop. I preach
+this but I would go to the intro classes for everything (even ones I wasnʼt enrolled in) if possible to get a
+feel. I dropped Robotics and HCI immediately and enrolled in better classes.
+As for Boulder, it is becoming less of a tech hub than it used to be. Sun Microsystems was in Boulder
+before it got bought by Oracle. It owned the rights to the Java platform and tech. Also had advanced
+processors for the time. So thereʼs some lingering effects of that but Iʼd say Denver will probably end up
+being better for tech jobs in the long run. But, I still count CU as a beneficiary of that so the job market
+isnʼt so bad. Itʼs not Silicon Valley, but itʼs still pretty good. I graduated in December 2024 and had my
+first day at a Boulder tech company in February.
+And as someone from the Midwest, I donʼt know why anyone would move away from Colorado and go to
+West Lafayette. And yes, I toured there too… great engineering but it sucks.
+
+sleepybiscu1tOP • 4mo ago
+Haha very interesting! Iʼm glad that some grads are surviving the market. West Lafayette is definitely
+not incredible location wise, if I could plop Purdue here I would… If you paid 50% OOS Ltuoigti oInn and feel
+itʼs worth it then thatʼs definitely high praise. Iʼll keep that in mind, thanks!
+
+Original_Pickle_104 • 4mo ago
+To clarify, that was after scholarships too. The full OOS tuition maybe wouldʼve changed my opinion
+on that lol
+
+[deleted] • 5mo ago

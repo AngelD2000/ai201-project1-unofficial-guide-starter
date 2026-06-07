@@ -1,0 +1,70 @@
+SOURCE: Coursicle — CU Boulder CSCI 3104 (Algorithms) professor list
+URL: https://www.coursicle.com/colorado/courses/CSCI/3104/
+RETRIEVED: 2026-06-07
+TYPE: Crowd-sourced course/professor ratings and student comments
+
+Divya Vernerey — CSCI 3104 Algorithms (Sophomore, 3 months ago):
+"My G.O.A.T. Will give 5 min HW extensions if asked!"
+
+Divya Vernerey — CSCI 3104 Algorithms (Senior, 2 months ago):
+"Divya was a great lecturer and is very nice in person (see the 5-minute extension incident). Homework assignments and quizzes were challenging, but were doable and graded quickly with partial credit. Lectures were posted online, and I personally thought the course content was very interesting."
+
+Divya Vernerey — CSCI 3104 Algorithms (Sophomore, 8 months ago):
+"I took this class last spring but forgot to leave a review. Divya made it easy to follow along with her notes by giving us amazing explanations and time to work on problems. She has a great teaching style. Homework took forever but covered information that I'm glad I learned."
+
+Divya Vernerey — CSCI 3104 Algorithms (Senior, 1 year ago):
+"She is the CEO OF ALGORITHMS and the QUEEN OF LINEAR ALGEBRA."
+
+Divya Vernerey — CSCI 3104 Algorithms (Senior, 1 year ago):
+"Dr. Divya had super lectures and explanations. Knew her stuff through and through. Liked that she handwrote her notes and not blazing through on slides. This made me more engaged. Liked that she said that different people think differently and gave different ways of looking at same problem. Nice person too!"
+
+Divya Vernerey — CSCI 3104 Algorithms (Senior, 1 year ago):
+"I liked this professor a lot, she explained things really well and it was very clear that she cares about her students. The class was challenging but she made it bearable."
+
+Divya Vernerey — CSCI 3104 Algorithms (Sophomore, 1 year ago):
+"She is a very kind soul and unintentionally hilarious. However, I wasn't a big fan of her teaching style. If you ask questions outside of class, she will take the time to make sure you understand the content. Overall, great professor and would take a class with her again."
+
+Divya Vernerey — CSCI 3104 Algorithms (Junior, 1 year ago):
+"I feel like these big lecture hall style classes aren't always the most engaging but Professor Vernerey did a good job of making the material interesting. Lots of busy work but due to how the unusual grading system was structured, doing well earlier in the semester meant the end of the semester was a breeze."
+
+Divya Vernerey — CSCI 3104 Algorithms (Junior, 1 year ago):
+"Took algorithms with her and the class is a lot, but she does a good job breaking it down and explaining each topic well. Lectures are so helpful because she does examples that are on the homework. Fair, funny, and would 100% take her again if I had the chance."
+
+Divya Vernerey — CSCI 3104 Algorithms (Junior, 2 years ago):
+"Prof. Vernerey is one of the nicest professors I've ever had. She's so nice sometimes it felt patronizing, though it wasn't. Hand written lecture notes with a lot of examples made homeworks pretty easy. Lectures were pretty energetic, which was good for a 9am lecture. Algorithms is a very pre-structured class though, can't say how she runs classes."
+
+Divya Vernerey — CSCI 3104 Algorithms (Senior, 2 years ago):
+"If you spend time with homework and quizzes, then don't have to take any exams. Dr.V is very good too."
+
+Divya Vernerey — CSCI 3104 Algorithms (Sophomore, 2 years ago):
+"Dr. Divya is super clear and organized. There are two sections and I'm happy to be in hers. She's the lead professor. Class is easy if you are okay at math but you will feel behind if you struggle with proofs, sums, logs, but still she does tons of examples. The actual algorithms part is not hard at all. Sweetheart too."
+
+Divya Vernerey — CSCI 3104 Algorithms (Senior, 2 years ago):
+"She's great"
+
+Divya Vernerey — CSCI 3104 Algorithms (Sophomore, 2 years ago):
+"Prof.Vernerey is a wonderful person, she's sweet, kind and always willing to help (and likes Lana Del Rey), but unfortunately she's not the best prof. She frequently makes mistakes in lecture and her class feels disorganized. I feel like learning algos shouldn't be as confusing as it is being taught."
+
+Divya Vernerey — CSCI 3104 Algorithms (Junior, 2 years ago):
+"Dr. Vernerey is simply wonderful. Wicked clear lectures, color-coded, great at explaining, patiently answers everything. Algo has no programming. I like the standards based grading but it's back-to-back work. Clickers for participation but everyone comes since she explains everything. Tons of office hours with the prof, TAs, CAs too. Solid class."
+
+Joshuwa Grochow — CSCI 3104 Algorithms (Rating: +2):
+"Algorithms is the hardest class I've ever taken. Grochow is good during office hours and is very available after class. Warning there is literally an insane amount of homework. Over all I'd suggest Grochow he always emailed back and seems to really care about his students and cares much more that you understand the material than just getting an A."
+
+Joshuwa Grochow — CSCI 3104 Algorithms (Rating: +1):
+"Did not respond to a single email the entire semester. Do not recommend this professor. Grades were also submitted four days after the CU 96 hour deadline giving no chance for any talking to the professors about what went wrong. Not worth paying for a professor who thinks he is above answering the simplest of emails. Highly not recommended."
+
+Joshuwa Grochow — CSCI 3104 Algorithms (Rating: 0):
+"Prof Grochow is knowledgeable and particularly good at explaining things, in my opinion. 3104 is unlike many other hard CS classes like Computer Systems or Operating Systems in that there really isn't any brute memorization, but there is a lot of homework. Best advice I can give anyone for algorithms is always have Levet's notes handy!"
+
+Joshuwa Grochow — CSCI 3104 Algorithms (Rating: 0):
+"Great professor who actually cares about teaching Algorithms. He is very knowledgeable in the field. People who are giving bad ratings are the ones that got bad grades. 9/10 would take his class again (not 10/10 because it can be pretty hard :))"
+
+Joshuwa Grochow — CSCI 3104 Algorithms (Rating: -1):
+"He is very knowledgeable on algorithms, and he really cares about the success of his students. Algorithms is definitely the hardest class I've taken, and the homework is VERY time consuming. But he truly cares about the success of his students, and he does everything he can to make sure you understand the content."
+
+Joshuwa Grochow — CSCI 3104 Algorithms (Rating: -1):
+"He is the type of teacher that lifts the mood at the beginning of class by talking of ideas/applications of the algorithms. His lectures start from a blank piece of paper (on the projectors), which is good because he doesn't recite from a textbook/material (he knows his stuff), but its bad because his hand writing sucks sometimes. Smart, nice prof."
+
+Joshuwa Grochow — CSCI 3104 Algorithms (Rating: -2):
+"Not as clear as some other professors, but still a solid choice for Algorithms."
