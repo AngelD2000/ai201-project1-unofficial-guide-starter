@@ -109,47 +109,7 @@ If I were to develop this for production users I'd weigh faithfulness, cost and 
 
 ---
 
-┌─────────────────────┐
-│  Document Ingestion │
-│  BeautifulSoup/PRAW │
-└─────────┬───────────┘
-          │
-          ▼
-┌─────────────────────┐
-│      Chunking       │
-│  RecursiveCharacter │
-│    TextSplitter     │
-│  512 chars/100 ovlp │
-└─────────┬───────────┘
-          │
-          ▼
-┌──────────────────────┐
-│      Embedding       │
-│   bge-small-en-v1.5  │
-│ sentence-transformers│
-└─────────┬────────────┘
-          │
-          ▼
-┌─────────────────────┐
-│    Vector Store     │
-│      Chroma DB      │
-└─────────┬───────────┘
-          │
-          ▼
-┌─────────────────────┐
-│      Retrieval      │
-│  Top-k=10 cosine    │
-│     similarity      │
-└─────────┬───────────┘
-          │
-          ▼
-┌─────────────────────┐
-│     Generation      │
-│   Llama 3 via       │
-│        Groq         │
-└─────────────────────┘
-
-
+![Architecture](image/Architecture.png)
 
 
 ## AI Tool Plan
