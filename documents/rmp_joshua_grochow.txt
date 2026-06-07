@@ -8,200 +8,40 @@ Level of Difficulty: 4.6 / 5
 Department: Computer Science
 University: University of Colorado - Boulder
 
-=== Individual Reviews ===
 
-QUALITY
-CSCI3104 M
-00:23
-Joshua GrochowFor Credit: Yes Rate
-Attendance: CNoomt pMaare
-DIFFICULTY
-Would Take Again: Y
-Grade: A Textbook
-Online Class: Yes
-Prof Grochow is kno
-and particularly good
-explaining things, in
-3104 is unlike many
-CS classes like Com
-Systems or Operatin
-in that there really isn
-brute memorization,
-a lot of homework. B
-can give anyone for
-is always have Levet
-handy!
-AMAZING LECTURES
-LOTS OF HOMEWORK
-CARING
-ands. Exclusive
-on: Helping 20% O
-l Better.
-for Returning
-st our products for
-ery, and comfort. Use promo code
-QUALITY
-CSCI3104 Ju
-00:23
-Joshua GrochowFor Credit: Yes Rate
-Attendance: CNoomt pMaare
-DIFFICULTY
-Would Take Again: Y
-Grade: A+ Textboo
-Great professor who
-cares about teaching
-Algorithms. He is ver
-knowledgeable in the
-People who are givin
-ratings are the ones
-bad grades. 9/10 wo
-class again (not 10/1
-it can be pretty hard
-EXTRA CREDIT
-QUALITY
-CSCI3104 De
-For Credit: Yes
-Attendance: Mandat
-DIFFICULTY
-Would Take Again: N
-Grade: D+ Textboo
-Professors Log In Sign Up Help
-Did not respond to a
-email the entire seme
-not recommend this
-Grades were also su
-four days after the C
-deadline giving no ch
-any talking to the pro
-about what went wro
-worth paying for a pr
-ADVERTISING who thinks he is abo
-answering the simple
-emails. Highly not
-recommended.
-TOUGH GRADER
-Dexcom-Sponsored
-Helpful 1 0 An easier way to manage
-diabetes
-With Dexcom G7 15 Day, you can see your
-Advertisement glucose and where it's headed in real-time,
-making it easier to make in-the-moment
-decisions about...
-. Big Impact.
-Learn More
-QUALITY
-CSCI3104 De
-For Credit: Yes
-Attendance: Not Ma
-DIFFICULTY
-Would Take Again: Y
-Grade: A+ Textboo
-He is very knowledge
-algorithms, and he re
-about the success o
-students. Algorithms
-definitely the hardest
-taken, and the home
-VERY time consumin
-truly cares about the
-⌃
-00:23
-Joshua Grochow Rate
-Compare Advertisement
-his students, and he
-everything he can to
-you understand the c
-00:23
-Joshua Grochow Rate
-RESPECTED Compare
-LOTS OF HOMEWORK
-LECTURE HEAVY
-QUALITY
-CSCI4114 Ma
-For Credit: Yes
-Attendance: Not Ma
-DIFFICULTY
-Would Take Again: Y
-Grade: A- Textbook
-Online Class: Yes
-Practical algo compl
-the hardest course I'
-taken. Hw was extre
-consuming. But Groc
-great prof who cares
-hw really helped me
-of the material.
-RESPECTED
-LOTS OF HOMEWORK
-CARING
-Advertisement 00:23
-Joshua Grochow Rate
-QUALITY
-CSCI3104 Ju
-For Credit: Yes
-Attendance: Not Ma
-DIFFICULTY
-Would Take Again: Y
-Grade: B+ Textboo
-He is the type of teac
-lifts the mood at the
-of class by talking of
-ideas/applications of
-algorithms. His lectu
-from a blank piece o
-the projectors), whic
-because he doesn't
-a textbook/material (
-his stuff), but its bad
-his hand writing suck
-sometimes. Smart, n
-GIVES GOOD FEEDBACK
-ACCESSIBLE OUTSIDE C
-INSPIRATIONAL
-QUALITY
-CSCI3104 M
-00:23
-Joshua GrochowFor Credit: Yes Rate
-Would Take ACgoaminp:a Yre
-DIFFICULTY
-Textbook: No
-Algorithms is the har
-I've ever taken. Groc
-good during office ho
-very available after c
-Warning there is liter
-insane amount of ho
-Over all I'd suggest G
-always emailed back
-seems to really care
-students and cares m
-that you understand
-material than just get
-LOTS OF HOMEWORK
-ACCESSIBLE OUTSIDE C
-SKIP CLASS? YOU WON'
-QUALITY
-CSCI3104 Ma
-For Credit: Yes
-Attendance: Not Ma
-00:23
-Joshua Grochow Rate
-Would Take Again: Y
-ComDpIFuFteICr UScLTieYnce
-Grade: A Textbook
-Not as clear as some
-professors, but still a
-choice for Algorithms
-RESPECTED
-LOTS OF HOMEWORK
-EXTRA CREDIT
-00:23
-Joshua Grochow Rate
-Help
-Site Guidelines
-Terms & Conditions
-Privacy Policy
-Copyright Compliance Policy
-CA Notice at Collection
-Do Not Sell My Personal Information
-© 2026 Rate My Professors, LLC. All Rights Reserved
+
+Course: CSCI3104
+Date: Mar 5th, 2024
+Quality: 5.0 | Difficulty: 4.0
+Grade: A | Attendance: Not Mandatory | For Credit: Yes | Textbook: N/A | Online Class: Yes
+Comment: Prof Grochow is knowledgeable and particularly good at explaining things, in my opinion. 3104 is unlike many other hard CS classes like Computer Systems or Operating Systems in that there really isn't any brute memorization, but there is a lot of homework. Best advice I can give anyone for algorithms is always have Levet's notes handy!
+Tags: AMAZING LECTURES, LOTS OF HOMEWORK, CARING, HELPFUL
+
+
+Course: CSCI3104
+Date: Jun 10th, 2022
+Quality: 5.0 | Difficulty: 4.0
+Grade: A+ | Attendance: Not Mandatory | For Credit: Yes | Textbook: N/A
+Comment: Great professor who actually cares about teaching Algorithms. He is very knowledgeable in the field. People who are giving bad ratings are the ones that got bad grades. 9/10 would take his class again (not 10/10 because it can be pretty hard :))
+Tags: EXTRA CREDIT, HELPFUL
+
+
+Course: CSCI3104
+Date: Dec 21st, 2021
+Quality: 1.0 | Difficulty: 5.0
+Grade: D+ | Attendance: Mandatory | For Credit: Yes | Textbook: No
+Comment: Did not respond to a single email the entire semester. Do not recommend this professor. Grades were also submitted four days after the CU 96 hour deadline giving no chance for any talking to the professors about what went wrong. Not worth paying for a professor who thinks he is above answering the simplest of emails. Highly not recommended.
+Tags: TOUGH GRADER, HELPFUL
+
+
+Course: CSCI3104
+Date: Dec 15th, 2021
+Quality: 5.0 | Difficulty: 5.0
+Grade: A+ | Attendance: Not Mandatory | For Credit: Yes | Textbook: No
+Comment: He is very knowledgeable on algorithms, and he really cares about the success of his students. Algorithms is definitely the hardest class I've taken, and the homework is VERY time consuming. But he truly cares about the success of his students, and he does everything he can to make sure you understand the content.
+Tags: RESPECTED, LOTS OF HOMEWORK, LECTURE HEAVY, HELPFUL
+
+
+Course: CSCI4114
+Date: May 11th, 2021
+Quality: 5.0 |

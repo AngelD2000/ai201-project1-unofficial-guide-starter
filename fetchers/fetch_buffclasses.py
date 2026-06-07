@@ -67,14 +67,14 @@ def main():
         rows = _query_course(con, subject, course)
         if not rows:
             continue
-        title = rows[0][1] or ""
-        header = f"--- {subject} {course} — {title} ---"
-        lines = [header, ""]
+        title = (rows[0][1] or "").strip()
+        course_prefix = f"{subject} {course} - {title}" if title else f"{subject} {course}"
+        lines = []
         for yt, _title, instr, avg, n_eot, pa, pb, pc, pdfw in rows:
             instr = (instr or "Unknown").strip()
             avg_s = f"{avg:.2f}" if avg is not None else "n/a"
             lines.append(
-                f"{_decode_yearterm(yt)} | {instr} | avg GPA {avg_s} | "
+                f"{course_prefix} {_decode_yearterm(yt)} | {instr} | avg GPA {avg_s} | "
                 f"N={n_eot} | A={pa} B={pb} C={pc} DFW={pdfw}"
             )
         blocks.append("\n".join(lines))

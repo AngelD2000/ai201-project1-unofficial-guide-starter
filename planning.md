@@ -127,7 +127,7 @@ If I were to develop this for production users I'd weigh faithfulness, cost and 
 I'll give Claude my Chunking strategy section and ask it to implement chunk_test() with my specific chunk size and overlap
 
 **Milestone 4 — Embedding and retrieval:**
-I'll give Claude my Retreival approach section and ask it to implement and guide me on using bge-small-en-v1.5 for embedding model on my data and storing it in ChromaDB.
+I'll give Claude my Retreival approach section and ask it to implement and guide me on using all-MiniLM-L6-v2 for embedding model on my data and storing it in ChromaDB.
 
 **Milestone 5 — Generation and interface:**
 I'll give Claude my Architecture diagram and Retrieval Approach section and ask it to implement a generate_response() function that takes retrieved chunks and passes them as context to Llama 3 via Groq, then wire it to a simple CLI or Gradio interface.
