@@ -14,6 +14,9 @@
      Example: "Student reviews of CS professors at [university] — useful because official
      course descriptions don't reflect teaching style, exam difficulty, or workload." -->
 
+
+This is an unofficial collection of student perspectives on the CU Boulder Computer Science department, covering professors, courses, workload, grad admissions, campus culture, and cost of living. This knowledge helps students make informed decisions that official sources can't support — official channels only surface credentials, syllabi, and institutional messaging, with no incentive to publish negative feedback, difficulty warnings, or honest comparisons between instructors.
+
 ---
 
 ## Document Sources
@@ -23,17 +26,18 @@
      Aim for variety — sources that together cover different subtopics or perspectives. -->
 
 | # | Source | Type | URL or file path |
-|---|--------|------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+|---|--------|-------------|-----------------|
+| 1 | Rate my professor | Website that is commonly used to rate a professor for a specific university, their quality and difficulty of the class | https://www.ratemyprofessors.com/search/professors/1087?q=* |
+| 2 | Reddit | Students describing their experiences and thoughts about cs department of CU Boulder | https://www.reddit.com/r/cuboulder/comments/1qkaql1/perspectives_from_cu_boulder_cs_majors/ |
+| 3 | CUBoulderGradesDatabase  | Database on average grades in each class  | https://web.navan.dev/BuffClassesEDA/ |
+| 4 | Niche | Overall review of cu boulder | https://www.niche.com/colleges/university-of-colorado-boulder/reviews/ |
+| 5 | GradCafe | MS/PhD program application |https://www.thegradcafe.com/survey?q=University+of+Colorado+Boulder&program=Computer+Science |
+| 6 | Reddit | Cost of attendance |https://www.reddit.com/r/cuboulder/comments/1jnjloz/is_there_any_way_to_reduce_cost_of_attendance/ |
+| 7 | Reddit | Diversity and acceptance | https://www.reddit.com/r/cuboulder/comments/1i8fgrx/how_accepting_is_cu_of_trans_people/ |
+| 8 | Coursicle| Course ratings |  https://www.coursicle.com/colorado/courses/CSCI/ |
+| 9 | Indeed| TA, employee reviews | https://www.indeed.com/cmp/Univeristy-of-Colorado-Boulder-1/reviews |
+| 10 | Reddit | Dorm life tips| https://www.reddit.com/r/cuboulder/comments/1tske4d/if_youre_moving_into_a_dorm_for_the_first_time/ |
+
 
 ---
 
@@ -45,55 +49,51 @@
      - Overlap size and why (or why not) you used overlap
      - Any preprocessing you did before chunking (e.g., stripping HTML, removing headers)
      - What your final chunk count was across all documents -->
-
 **Chunk size:**
+512 characters, there's a wide variety of data types some are one liner statistic data on the course and some are long discussion forumns from reddit. Even though the post itself is long, it is often split into multiple paragraphs or have different meanings.
 
 **Overlap:**
+100 characters. The average sentence is typically 15-20 words so around 75-100 characters. Given that these discussion posts are informal and often have multiple points in one post (with one overarching topic), 100 characters overlap should retain enough context to connect a chunk back to the broader point being made.
 
 **Why these choices fit your documents:**
+Over half of the sources are comments that fall within the 250 - 300 character range, but some of the sources are of long discussion posts with multiple points in an overarching topic. The 512 isn't going to be enough for the entire post but it should be relatively good for a single paragraph or point in these long posts. Paragraph splitting would have difficulties with the inline structure from reddit.
 
-**Final chunk count:** 259
+**Final chunk count:** 255
 
-**Sample chunks** (output of `.venv/bin/python chunking.py --show 5 96 120 140 256`):
+**Sample chunks** (output of `.venv/bin/python chunking.py --show 5 96 120 140 252  `):
 
 ```
-(corpus: 259 chunks across 12 documents — valid id range 0..258)
+(corpus: 255 chunks across 12 documents — valid id range 0..254)
 
---- chunk 5 (502 chars) | BuffClassesEDA — CU Boulder grade distributions (Spring 2016–Spring 2024) ---
-Spring 2019 | RECKWERDT,ERIC ASHER | avg GPA 2.89 | N=24 | A=38% B=33% C=21% DFW=15%
-Fall 2018 | CHEN, LIJUN | avg GPA 2.22 | N=49 | A=10% B=35% C=33% DFW=34%
-Fall 2018 | HOENIGMAN, RHONDA OLCOTT | avg GPA 2.63 | N=63 | A=27% B=33% C=21% DFW=23%
-Fall 2018 | HOENIGMAN, RHONDA OLCOTT | avg GPA 2.35 | N=80 | A=15% B=38% C=28% DFW=26%
-Fall 2018 | RECKWERDT,ERIC ASHER | avg GPA 2.63 | N=12 | A=42% B=17% C=17% DFW=25%
-Spring 2018 | CLAUSET, AARON JULIAN | avg GPA 3.01 | N=176 | A=45% B=31% C=11% DFW=24%
+--- chunk 5 (379 chars) | BuffClassesEDA — CU Boulder grade distributions (Spring 2016–Spring 2024) ---
+CSCI 3104 - Algorithms grade history:
+Fall 2019 | AGRAWAL,SHIVENDRA | avg GPA 2.05 | N=93 | A=15% B=25% C=31% DFW=40%
+Fall 2019 | HOENIGMAN, RHONDA OLCOTT | avg GPA 2.09 | N=64 | A=27% B=23% C=11% DFW=47%
+Fall 2019 | HOENIGMAN, RHONDA OLCOTT | avg GPA 2.33 | N=75 | A=28% B=17% C=32% DFW=33%
+Spring 2019 | GROCHOW,JOSHUA ABRAHAM | avg GPA 3.08 | N=158 | A=56% B=18% C=13% DFW=27%
 
---- chunk 96 (242 chars) | Reddit — diversity and acceptance ---
-Unknownjarman OP • 1y ago
-Iʼm always on edge anywhere better safe than sorry. Also I play in a band maybe Iʼll find some new
-bandmates there
+--- chunk 96 (253 chars) | Reddit — reduce cost of attendance ---
+journey37• 1y ago
+This is the way 100%
 
-Routine_Force8625 • 1y ago
-i play guitar, and am into punk and french house. so holler
+vseprviper • 1y ago
+…as long as you confirm beforehand that CU will accept the transfer credits. That program
+specifically is pretty elitist and very proud of its freshman weedout courses lmao Log In
 
 1 more reply
 
---- chunk 120 (487 chars) | Reddit — dorm life tips (Q3 source for laundry) ---
-one that will be bright enough to fill the room, so you can come back at night, turn it on, and be in a
-comfortable environment. I've had this one for all 6 years, and it's now happily in my apartment. Collapses
-away and is packed easily.
-- Shop fan.
-A tall rotating one will be annoying during moves. I ended up opting for a proper shop fan, which can clamp
-onto edges, be hung on the wall or magnetically stuck on the side of the microwave, and is quite powerful.
-- Portable door lock.
+--- chunk 120 (502 chars) | Reddit — dorm life tips (Q3 source for laundry) ---
+- For storing toiletries and clothes, get these three items.
+For toiletries, get one of these hanging roll-ups. I can't exaggerate how efficient it made everything. Hang it in
+your closet or somewhere better, and use it for your place to put things like your body wash after showering.
+Using coathangers or the provided drawers will limit your storage. Hanging shelves are your best bet. These
+have survived me until now. There is also a trick for packing them. Instead of emptying out all your clothes
 
---- chunk 140 (297 chars) | Reddit — CS majors perspectives at CU Boulder ---
-However Iʼve heard mixed opinions on if CU is actually better than CSU/Mines or worth it tuition wise. Itʼs the
-second most expensive school Iʼm looking at next to Purdue, but it also seems really impressive for an in state
-school.
-Any thoughts, perspectives, experiences, regrets?
-Thanks so much!
+--- chunk 140 (161 chars) | Reddit — dorm life tips (Q3 source for laundry) ---
+videos or family guy or something before bed together. Was never a pain to deal with, and since TVs are
+so cheap nowadays we just donated it after a year of use.
 
---- chunk 256 (323 chars) | Niche — University of Colorado Boulder student reviews ---
+--- chunk 252 (323 chars) | Niche — University of Colorado Boulder student reviews ---
 [Junior, 5/5] CU Boulder has allowed me to delve into experimental learning with classes focused on applying conceptual understandings to real-world problems. The learning environment is empowering.
 
 [Freshman, 5/5] I love the culture and the academics are very good. The campus life is good and it is easy to get involved.
@@ -147,9 +147,20 @@ This system is sized for the CU Boulder CS student body (~38k enrolled across th
 
 **System prompt grounding instruction:**
 
-**How source attribution is surfaced in the response:**
+SYSTEM_PROMPT = f"""You are an unofficial guide to the CU Boulder Computer Science department, drawing on student reviews, Reddit posts, course ratings, and grade data.
 
----
+You MUST follow these rules without exception:
+
+1. Answer ONLY using information found in the CONTEXT block of the latest user message. Do not use prior knowledge of CU Boulder, professors, courses, or any other fact not present in the CONTEXT.
+2. If the CONTEXT does not contain enough information to answer the question, reply with EXACTLY this sentence and nothing else: "{NO_INFO_REPLY}"
+3. Do not invent professors, courses, numbers, dates, grades, GPAs, or quotes. If a detail is not literally in the CONTEXT, leave it out.
+4. Do NOT include a sources list, citations, footnotes, "[1]" markers, or URLs in your answer. The system appends sources automatically after your reply; do not duplicate them.
+5. Keep your answer concise (roughly under 150 words) and paraphrase the retrieved snippets faithfully. Prefer direct, plain language.
+"""
+
+**How source attribution is surfaced in the response:**
+The model is explicitly told not to write citations itself, sources are surfaced by _unique_sources, which builds the citation list in Python from the chunks that were already retrieved after the LLM has answered.
+
 
 ## Evaluation Report
 
@@ -159,15 +170,77 @@ This system is sized for the CU Boulder CS student body (~38k enrolled across th
 
 | # | Question | Expected answer | System response (summarized) | Retrieval quality | Response accuracy |
 |---|----------|-----------------|------------------------------|-------------------|-------------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | Is CJ Herman's class difficult? | Yes 4.6 out of 5.0 overall difficulty | According to the comments, CJ Herman's class is considered difficult. Many students have rated the difficulty as 5.0, with one student stating that the tests were "incredibly difficult" and another saying that the class requires a lot of work and can be overwhelming if taken in a heavy semester. However, some students also mention that the difficulty is due to the challenging material and assignments, rather than poor teaching. Overall, the consensus is that CJ Herman's class is demanding, but some students appreciate the challenge and feel that it helps them learn. | Relevant | Accurate |
+| 2 |What are some options to reduce cost of attendance? | Use library's course reserves for some textbooks, RA, community college credits | To reduce the cost of attendance, some options include living off-campus in a shared apartment, eating cheaper food alternatives, and buying used supplies such as books and computers. Additionally, considering refurbished computers and looking for student discounts can also help save money. Other options mentioned include graduating in 3 or 3.5 years, attending a local community college before reapplying to CU Boulder, getting a job and working to give earnings to parents, and exploring need-based housing assignments | Relevant | Accurate |
+| 3 | What are some tips for doing laundry in a CU Boulder dorm?| Based on the Reddit dorm tips thread, laundry is least crowded early in the week and most crowded on Sunday. Students should set a phone timer for their laundry so someone doesn't pull wet clothes out onto the floor to use the machine. Detergent sheets are recommended over tide pods after a bag popped open during a move. A hamper bag is also suggested over a basket since dorms often require climbing stairs to reach laundry machines.| To do laundry in a CU Boulder dorm, consider the following tips: do laundry early in the week as it is least crowded, and avoid Sundays when it is most crowded. Additionally, using ultralight towels instead of fluffy ones can be helpful as they dry faster and take up less space. There is also the option to shower at the campus gym or in some academic buildings, and using a compact towel can be convenient for this. | Relevant | Partially Accurate|
+| 4 | Who's a good professor for CSCI 3104 algorithms? | Based on Coursicle, Joshua Grochow is frequently recommended — students describe him as caring, very available at office hours, and responsive to emails. The tradeoff is an extremely heavy homework load. Known professors for this course include Grochow, Divya Vernerey and others.| Both Joshua Grochow and Divya Vernerey are considered good professors for CSCI 3104 Algorithms. Joshua Grochow is knowledgeable and good at explaining things, but the class can be hard and has a lot of homework. Divya Vernerey is described as clear, organized, and caring, with a great teaching style, and her lectures are helpful in breaking down the material.| Relevant| Accurate |
+| 5 | What GPA do I need to get into the CU Boulder MS CS program? | Based on GradCafe Fall 2026 data, accepted MS students have GPAs around 3.70 (one confirmed acceptance at 3.70). PhD rejections are coming in across a wide GPA range including 3.65, 3.78, 3.81, 3.83, 3.87, 3.91, 3.98, and even 4.00 — suggesting PhD admissions is highly competitive beyond just GPA, with research experience and publications mattering significantly. | Based on the information provided, it appears that a GPA of around 3.70 may be sufficient to get into the CU Boulder MS CS program. This is according to the GradCafe source, which mentions that one of the confirmed Masters acceptances had a GPA of 3.70. However, it's worth noting that GPA is just one factor considered in the admissions process, and other factors such as research experience and fit may also be important.| Relevant | Accurate |
 
 **Retrieval quality:** Relevant / Partially relevant / Off-target  
 **Response accuracy:** Accurate / Partially accurate / Inaccurate
 
+### Sample Conversations
+### Question 1: 
+
+user: Is CJ Herman's class difficult?
+
+assistant: According to the comments, CJ Herman's class is considered difficult. Many students have rated the difficulty as 5.0, with one student stating that the tests were "incredibly difficult" and another saying that the class requires a lot of work and can be overwhelming if taken in a heavy semester. However, some students also mention that the difficulty is due to the challenging material and assignments, rather than poor teaching. Overall, the consensus is that CJ Herman's class is demanding, but some students appreciate the challenge and feel that it helps them learn.
+
+**Sources:**
+- RateMyProfessors — CJ Herman at CU Boulder
+
+user: What's he's score on rate my professor?
+
+assistant: CJ Herman's overall quality score on RateMyProfessors is 2.7 out of 5, based on 47 ratings. His level of difficulty score is 4.6 out of 5.
+
+**Sources:**
+- RateMyProfessors — CJ Herman at CU Boulder
+
+
+### Question 2
+user: What are some options to reduce cost of attendance?
+
+assistant: To reduce the cost of attendance, some options include living off-campus in a shared apartment, eating cheaper food alternatives, and buying used supplies such as books and computers. Additionally, considering refurbished computers and looking for student discounts can also help save money. Other options mentioned include graduating in 3 or 3.5 years, attending a local community college before reapplying to CU Boulder, getting a job and working to give earnings to parents, and exploring need-based housing assignments.
+
+**Sources:**
+- Reddit — reduce cost of attendance
+- Niche — University of Colorado Boulder student reviews
+
+
+### Question 3
+user: What are some tips for doing laundry in a CU Boulder dorm?
+
+assistant: To do laundry in a CU Boulder dorm, consider the following tips: do laundry early in the week as it is least crowded, and avoid Sundays when it is most crowded. Additionally, using ultralight towels instead of fluffy ones can be helpful as they dry faster and take up less space. There is also the option to shower at the campus gym or in some academic buildings, and using a compact towel can be convenient for this.
+
+**Sources:**
+- Reddit — dorm life tips (Q3 source for laundry)
+- Niche — University of Colorado Boulder student reviews
+- Reddit — reduce cost of attendance
+
+
+### Question 4
+user: Who's a good professor for CSCI 3104 algorithms?
+
+assistant: Both Joshua Grochow and Divya Vernerey are considered good professors for CSCI 3104 Algorithms. Joshua Grochow is knowledgeable and good at explaining things, but the class can be hard and has a lot of homework. Divya Vernerey is described as clear, organized, and caring, with a great teaching style, and her lectures are helpful in breaking down the material.
+
+**Sources:**
+- Coursicle — CU Boulder CSCI 3104 (Algorithms) professor list
+- RateMyProfessors — Joshua Grochow at CU Boulder
+- BuffClassesEDA — CU Boulder grade distributions (Spring 2016–Spring 2024)
+
+### Question 5
+user: What GPA do I need to get into the CU Boulder MS CS program?
+
+assistant: Based on the information provided, it appears that a GPA of around 3.70 may be sufficient to get into the CU Boulder MS CS program. This is according to the GradCafe source, which mentions that one of the confirmed Masters acceptances had a GPA of 3.70. However, it's worth noting that GPA is just one factor considered in the admissions process, and other factors such as research experience and fit may also be important.
+
+**Sources:**
+- Reddit — CS majors perspectives at CU Boulder
+- GradCafe — CU Boulder Computer Science graduate admissions results
+- RateMyProfessors — Divya Vernerey at CU Boulder
+- Niche — University of Colorado Boulder student reviews
+- RateMyProfessors — Joshua Grochow at CU Boulder
+- BuffClassesEDA — CU Boulder grade distributions (Spring 2016–Spring 2024)
+- RateMyProfessors — CJ Herman at CU Boulder
 ---
 
 ## Failure Case Analysis
@@ -184,12 +257,19 @@ This system is sized for the CU Boulder CS student body (~38k enrolled across th
      results from an unrelated review" is an explanation. -->
 
 **Question that failed:**
+"What is the most common grade students get in CSCI 3104?"
 
 **What the system returned:**
+"The most common grade students get in CSCI 3104 is an A, as most semesters have an A percentage above 60% or even 70%, with some as high as 93%."
 
 **Root cause (tied to a specific pipeline stage):**
+The failure happens at two stages. First the issue is data size, the amount of data isn't enough to determine that **most** semesters have an A percentage above 60%, this will mislead someone using the tool with sources and citations. 
+This could also ben an issue of retrieval, top-k=10 only surfaced recent semesters (2022–2024) which skew toward high A rates — the older, lower-A semesters were left out of the context. Though we could argue this makes sense given we want to see more recent data on the course since curriculum can change over time.
+
+Second during generation the LLM took a one time high of 93% and included it when the result of the grade you get depends on the professor and the student's level of effort.
 
 **What you would change to fix it:**
+A larger dataset and with that also include the number of chunks to get more results to aggregate together.
 
 ---
 
@@ -199,8 +279,10 @@ This system is sized for the CU Boulder CS student body (~38k enrolled across th
      Answer both questions with at least 2–3 sentences each. -->
 
 **One way the spec helped you during implementation:**
+Clear guidelines for the LLM to use after initial research on the injestion data. Allowed me to progress the assignment rather quickly after establishing the baseline.
 
 **One way your implementation diverged from the spec, and why:**
+Model usage, I originally went with the suggested embedding model but it was not able to distinguish class numbers like CSCI 1300 and CSCI 3104.
 
 ---
 
@@ -216,13 +298,17 @@ This system is sized for the CU Boulder CS student body (~38k enrolled across th
      chunk size from 500 to 200 because my documents are short reviews, not long guides." -->
 
 **Instance 1**
-
 - *What I gave the AI:*
+The resources that I'm using for injestion data, I asked if the AI could scrape any information before I went in manually.
 - *What it produced:*
+Documents such as buffclasses_grades.txt and code such as thta fetch_buffclasses.py
 - *What I changed or overrode:*
+I changed the structure of buffclasses_grades.txt afterwards because initially with how the document was setup we'd lose metadata on which row items belonged to which class due to chunking.
 
 **Instance 2**
-
 - *What I gave the AI:*
+The specs for chunking and embedding that was determined previously
 - *What it produced:*
+Code that did exactly to the spec like chunking.py, embed.py, generate.py etc.
 - *What I changed or overrode:*
+Default k, it had set it to 5 for some reason but my baseline was 10.
