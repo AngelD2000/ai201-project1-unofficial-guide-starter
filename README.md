@@ -179,6 +179,8 @@ The model is explicitly told not to write citations itself, sources are surfaced
 **Retrieval quality:** Relevant / Partially relevant / Off-target  
 **Response accuracy:** Accurate / Partially accurate / Inaccurate
 
+NOTE: For question 4 you'll see a discrepency of after **Known Professors** because when I constructed the expected answer originally I did not check how many of them are Univesrity of Colorado Boulder professors and have some comments, I landed on Joshua Grochow and Divya Vernerey after the fact.
+
 ### Sample Conversations
 ### Question 1: 
 
