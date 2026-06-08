@@ -259,19 +259,16 @@ assistant: Based on the information provided, it appears that a GPA of around 3.
      results from an unrelated review" is an explanation. -->
 
 **Question that failed:**
-"What is the most common grade students get in CSCI 3104?"
+"What are some tips for doing laundry in a CU Boulder dorm?"
 
 **What the system returned:**
-"The most common grade students get in CSCI 3104 is an A, as most semesters have an A percentage above 60% or even 70%, with some as high as 93%."
+"To do laundry in a CU Boulder dorm, consider the following tips: do laundry early in the week as it is least crowded, and avoid Sundays when it is most crowded. Additionally, using ultralight towels instead of fluffy ones can be helpful as they dry faster and take up less space. There is also the option to shower at the campus gym or in some academic buildings, and using a compact towel can be convenient for this."
 
 **Root cause (tied to a specific pipeline stage):**
-The failure happens at two stages. First the issue is data size, the amount of data isn't enough to determine that **most** semesters have an A percentage above 60%, this will mislead someone using the tool with sources and citations. 
-This could also ben an issue of retrieval, top-k=10 only surfaced recent semesters (2022–2024) which skew toward high A rates — the older, lower-A semesters were left out of the context. Though we could argue this makes sense given we want to see more recent data on the course since curriculum can change over time.
-
-Second during generation the LLM took a one time high of 93% and included it when the result of the grade you get depends on the professor and the student's level of effort.
+The failure happens at **chunking and retrieval**. The Reddit dorm tips thread covers many topics (laundry, towels, toiletries, showering) across one long post. Because chunks are split by character count rather than by topic, laundry-specific advice (phone timer so no one pulls your wet clothes out, detergent sheets over tide pods, hamper bag over a basket for stair-heavy dorms) ended up in different chunks than towel and shower tips. At retrieval, the towel and shower chunks scored high on cosine similarity to the query — they came from the same dorm tips document and share vocabulary like "dorm" and "CU Boulder." The result is that the model answered correctly on timing (early in the week, avoid Sundays) but replaced the most actionable laundry-specific tips with adjacent advice about towels and gym showers that wasn't relevant to the question.
 
 **What you would change to fix it:**
-A larger dataset and with that also include the number of chunks to get more results to aggregate together.
+Structure the dorm tips document with explicit topic headers (e.g., `## Laundry`, `## Toiletries`) before chunking so that related advice stays in the same chunk. This keeps laundry-specific tips together and prevents semantically adjacent but topically unrelated content from outranking them at retrieval.
 
 ---
 
